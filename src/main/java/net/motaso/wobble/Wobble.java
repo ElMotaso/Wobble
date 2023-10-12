@@ -15,6 +15,7 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.motaso.wobble.blocks.ModBlocks;
 import net.motaso.wobble.item.ModCreativeModTabs;
 import net.motaso.wobble.item.ModItems;
 import org.slf4j.Logger;
@@ -37,6 +38,9 @@ public class Wobble
         // Register all Items from item package
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
+
+        // Register new Blocks
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);

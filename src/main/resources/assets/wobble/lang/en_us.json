@@ -2,5 +2,13 @@
   "item.wobble.sapphire": "Sapphire",
   "item.wobble.raw_sapphire": "Raw Sapphire",
 
+  "block.wobble.sapphire_block": "Block of Sapphire",
+  "block.wobble.raw_sapphire_block": "Block of Raw Sapphire",
+
+  "block.wobble.sapphire_ore": "Sapphire Ore",
+  "block.wobble.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.wobble.nether_sapphire_ore": "Nether Sapphire Ore",
+  "block.wobble.end_stone_sapphire_ore": "End Stone Sapphire Ore",
+
   "creativetab.wobble_tab": "Wobble Tab"
 }

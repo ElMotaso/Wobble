@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wobble:sapphire"
+    }
+  },
+  "result": {
+    "item": "wobble:sapphire_block"
+  }
+}
