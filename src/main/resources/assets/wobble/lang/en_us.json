@@ -12,5 +12,7 @@
   "block.wobble.nether_sapphire_ore": "Nether Sapphire Ore",
   "block.wobble.end_stone_sapphire_ore": "End Stone Sapphire Ore",
 
+  "block.wobble.sound_block": "Sound Block",
+
   "creativetab.wobble_tab": "Wobble Tab"
 }
