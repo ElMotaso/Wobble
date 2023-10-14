@@ -9,6 +9,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.motaso.wobble.Wobble;
 import net.motaso.wobble.blocks.ModBlocks;
+import net.motaso.wobble.item.custom.FuelItem;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -25,6 +26,8 @@ public class ModCreativeModTabs {
                                 pOutput.accept(ModItems.METAL_DETECTOR.get());
 
                                 pOutput.accept(ModItems.STRAWBERRY.get());
+
+                                pOutput.accept(ModItems.PINE_CONE.get());
 
                                 pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                                 pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());

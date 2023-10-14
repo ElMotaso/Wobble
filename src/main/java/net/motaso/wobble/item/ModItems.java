@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.motaso.wobble.Wobble;
+import net.motaso.wobble.item.custom.FuelItem;
 import net.motaso.wobble.item.custom.MetalDetectorItem;
 
 public class ModItems {
@@ -24,6 +25,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
             () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
+
+public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
+            () -> new FuelItem(new Item.Properties(), 400));
 
 
     // Has to get registered in Wobble File as well
