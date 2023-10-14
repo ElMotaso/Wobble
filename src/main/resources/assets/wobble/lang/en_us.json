@@ -16,5 +16,7 @@
 
   "block.wobble.sound_block": "Sound Block",
 
+  "tooltip.wobble.metal_detector.tooltip": "Finds valuables underground.",
+
   "creativetab.wobble_tab": "Wobble Tab"
 }
