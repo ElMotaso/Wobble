@@ -10,6 +10,12 @@
 
   "item.wobble.sapphire_staff": "Sapphire Staff",
 
+  "item.wobble.sapphire_sword": "Sapphire Sword",
+  "item.wobble.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.wobble.sapphire_axe": "Sapphire Axe",
+  "item.wobble.sapphire_shovel": "Sapphire Shovel",
+  "item.wobble.sapphire_hoe": "Sapphire Hoe",
+
   "block.wobble.sapphire_block": "Block of Sapphire",
   "block.wobble.raw_sapphire_block": "Block of Raw Sapphire",
 
