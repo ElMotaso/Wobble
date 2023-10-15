@@ -19,6 +19,16 @@
   "block.wobble.sapphire_block": "Block of Sapphire",
   "block.wobble.raw_sapphire_block": "Block of Raw Sapphire",
 
+  "block.wobble.sapphire_stairs": "Sapphire Stairs",
+  "block.wobble.sapphire_slab": "Sapphire Slab",
+  "block.wobble.sapphire_button": "Sapphire Button",
+  "block.wobble.sapphire_pressure_plate": "Sapphire Pressure Plate",
+  "block.wobble.sapphire_fence": "Sapphire Fence",
+  "block.wobble.sapphire_fence_gate": "Sapphire Fence Gate",
+  "block.wobble.sapphire_wall": "Sapphire Wall",
+  "block.wobble.sapphire_door": "Sapphire Door",
+  "block.wobble.sapphire_trapdoor": "Sapphire Trapdoor",
+
   "block.wobble.sapphire_ore": "Sapphire Ore",
   "block.wobble.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
   "block.wobble.nether_sapphire_ore": "Nether Sapphire Ore",

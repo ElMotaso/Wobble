@@ -8,8 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.motaso.wobble.Wobble;
-import net.motaso.wobble.blocks.ModBlocks;
-import net.motaso.wobble.item.custom.FuelItem;
+import net.motaso.wobble.block.ModBlocks;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -45,6 +44,16 @@ public class ModCreativeModTabs {
                                 pOutput.accept(ModBlocks.END_STONE_SAPPHIRE_ORE.get());
 
                                 pOutput.accept(ModBlocks.SOUND_BLOCK.get());
+
+                                pOutput.accept(ModBlocks.SAPPHIRE_STAIRS.get());
+                                pOutput.accept(ModBlocks.SAPPHIRE_SLAB.get());
+                                pOutput.accept(ModBlocks.SAPPHIRE_BUTTON.get());
+                                pOutput.accept(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get());
+                                pOutput.accept(ModBlocks.SAPPHIRE_FENCE.get());
+                                pOutput.accept(ModBlocks.SAPPHIRE_FENCE_GATE.get());
+                                pOutput.accept(ModBlocks.SAPPHIRE_WALL.get());
+                                pOutput.accept(ModBlocks.SAPPHIRE_DOOR.get());
+                                pOutput.accept(ModBlocks.SAPPHIRE_TRAPDOOR.get());
 
 
                             }))

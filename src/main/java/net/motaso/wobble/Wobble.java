@@ -1,7 +1,6 @@
 package net.motaso.wobble;
 
 import com.mojang.logging.LogUtils;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -15,7 +14,7 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.motaso.wobble.blocks.ModBlocks;
+import net.motaso.wobble.block.ModBlocks;
 import net.motaso.wobble.item.ModCreativeModTabs;
 import net.motaso.wobble.item.ModItems;
 import org.slf4j.Logger;

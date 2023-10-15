@@ -1,4 +1,4 @@
-package net.motaso.wobble.blocks.custom;
+package net.motaso.wobble.block.custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;

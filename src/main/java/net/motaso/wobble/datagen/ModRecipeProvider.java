@@ -8,7 +8,7 @@ import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import net.motaso.wobble.Wobble;
-import net.motaso.wobble.blocks.ModBlocks;
+import net.motaso.wobble.block.ModBlocks;
 import net.motaso.wobble.item.ModItems;
 
 import java.util.List;
