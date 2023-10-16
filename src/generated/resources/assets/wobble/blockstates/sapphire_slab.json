@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wobble:block/sapphire_slab"
+    },
+    "type=double": {
+      "model": "wobble:block/sapphire_block"
+    },
+    "type=top": {
+      "model": "wobble:block/sapphire_slab_top"
+    }
+  }
+}

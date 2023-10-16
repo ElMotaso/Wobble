@@ -1,0 +1,11 @@
+{
+  "values": [
+    "wobble:sapphire_block",
+    "wobble:raw_sapphire_block",
+    "wobble:sapphire_ore",
+    "wobble:deepslate_sapphire_ore",
+    "wobble:nether_sapphire_ore",
+    "wobble:end_stone_sapphire_ore",
+    "wobble:sound_block"
+  ]
+}
