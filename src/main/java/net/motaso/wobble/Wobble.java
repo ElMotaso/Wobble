@@ -17,6 +17,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.motaso.wobble.block.ModBlocks;
 import net.motaso.wobble.item.ModCreativeModTabs;
 import net.motaso.wobble.item.ModItems;
+import net.motaso.wobble.loot.ModLootModifiers;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -34,11 +35,10 @@ public class Wobble
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
 
-        // Register all Items from item package
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
 
-        // Register new Blocks
+        ModLootModifiers.register(modEventBus);
         ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
