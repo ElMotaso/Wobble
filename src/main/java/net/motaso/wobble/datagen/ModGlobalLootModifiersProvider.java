@@ -24,12 +24,17 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
                 LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.GRASS).build(),
                 LootItemRandomChanceCondition.randomChance(0.35f).build()},
                 ModItems.PINE_CONE.get()));
+        add("cherry_from_cherry_leaves", new AddItemModifier(new LootItemCondition[] {
+                LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.CHERRY_LEAVES).build(),
+                LootItemRandomChanceCondition.randomChance(0.33f).build()},
+                ModItems.CHERRY.get()));
+
+
         add("pine_cone_from_creeper", new AddItemModifier(new LootItemCondition[] {
                 new LootTableIdCondition.Builder(new ResourceLocation("entities/creeper")).build() },
                 ModItems.PINE_CONE.get()));
         add("metal_detector_from_jungle_temples", new AddItemModifier(new LootItemCondition[] {
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/jungle_temple")).build() },
                 ModItems.METAL_DETECTOR.get()));
-
     }
 }
