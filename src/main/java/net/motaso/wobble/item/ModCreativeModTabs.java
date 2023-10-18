@@ -26,6 +26,7 @@ public class ModCreativeModTabs {
 
                                 pOutput.accept(ModItems.STRAWBERRY.get());
                                 pOutput.accept(ModItems.CHERRY.get());
+                                pOutput.accept(ModItems.CHERRY_STONE.get());
 
                                 pOutput.accept(ModItems.SAPPHIRE_STAFF.get());
                                 pOutput.accept(ModItems.SAPPHIRE_SWORD.get());

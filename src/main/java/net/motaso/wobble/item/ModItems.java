@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.motaso.wobble.Wobble;
+import net.motaso.wobble.item.custom.CherryItem;
 import net.motaso.wobble.item.custom.FuelItem;
 import net.motaso.wobble.item.custom.MetalDetectorItem;
 import net.motaso.wobble.item.custom.ModArmorItem;
@@ -29,7 +30,9 @@ public class ModItems {
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
             () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
     public static final RegistryObject<Item> CHERRY = ITEMS.register("cherry",
-            () -> new Item(new Item.Properties().food(ModFoods.CHERRY)));
+            () -> new CherryItem(new Item.Properties().food(ModFoods.CHERRY)));
+    public static final RegistryObject<Item> CHERRY_STONE = ITEMS.register("cherry_stone",
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> SAPPHIRE_STAFF = ITEMS.register("sapphire_staff",
             () -> new Item(new Item.Properties().stacksTo(1)));
