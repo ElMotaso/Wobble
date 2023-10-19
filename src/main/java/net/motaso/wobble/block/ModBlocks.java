@@ -48,15 +48,6 @@ public class ModBlocks {
 
         public static final RegistryObject<Block> STRAWBERRY_CROP = BLOCKS.register("strawberry_crop",
             () -> new StrawberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
-    /*
-    public static final RegistryObject<Block> CHERRY_STONE = registerBlock("cherry_stone",
-            () -> new SaplingBlock(new CherryTreeGrower(),
-                    BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PINK)
-                            .noCollission().randomTicks().instabreak()
-                            .sound(SoundType.CHERRY_SAPLING)
-                            .pushReaction(PushReaction.DESTROY)));
-
-     */
 
     public static final RegistryObject<Block> SAPPHIRE_STAIRS = registerBlock("sapphire_stairs",
             () -> new StairBlock(() -> ModBlocks.SAPPHIRE_BLOCK.get().defaultBlockState(),

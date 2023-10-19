@@ -30,34 +30,4 @@ public class CherryStoneItem extends ItemNameBlockItem {
     public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
         return this.burnTime;
     }
-
-    /*
-    public InteractionResult useOn(UseOnContext pContext) {
-        if(!pContext.getLevel().isClientSide()) {
-
-
-            BlockPos positionClicked = pContext.getClickedPos();
-            Player player = pContext.getPlayer();
-            InteractionHand hand = pContext.getHand();
-            ItemStack itemStack = player.getItemInHand(hand);
-
-            // Check if the block the player is trying to place the stone on is dirt or grass
-            BlockState state = pContext.getLevel().getBlockState(positionClicked);
-            if (state.is(Blocks.DIRT) || state.is(Blocks.GRASS_BLOCK)) {
-                // Set the block at the position above to an oak sapling
-                pContext.getClickedP
-                 .setBlockState(pos.up(), Blocks.OAK_SAPLING.getDefaultState());
-
-                // Consume one cherry stone from the player's hand
-                if (!player.isCreative()) {
-                    itemStack.shrink(1);
-                }
-            }
-
-        }
-
-        return InteractionResult.SUCCESS;
-    }
-
-     */
 }

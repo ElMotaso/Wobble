@@ -9,6 +9,7 @@ import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition;
 import net.minecraftforge.common.data.GlobalLootModifierProvider;
 import net.minecraftforge.common.loot.LootTableIdCondition;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.motaso.wobble.Wobble;
 import net.motaso.wobble.item.ModItems;
 import net.motaso.wobble.loot.AddItemModifier;
@@ -30,7 +31,6 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
                 LootItemRandomChanceCondition.randomChance(0.33f).build()},
                 ModItems.CHERRY.get()));
 
-
         add("pine_cone_from_creeper", new AddItemModifier(new LootItemCondition[] {
                 new LootTableIdCondition.Builder(new ResourceLocation("entities/creeper")).build() },
                 ModItems.PINE_CONE.get()));
@@ -39,7 +39,5 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
                 ModItems.METAL_DETECTOR.get()));
         add("metal_detector_from_suspicious_sand", new AddSuspiciousSandModifier(new LootItemCondition[] {
                 new LootTableIdCondition.Builder(new ResourceLocation("archaeology/desert_pyramid")).build() }, ModItems.METAL_DETECTOR.get()));
-
-
     }
 }
