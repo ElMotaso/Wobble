@@ -1,4 +1,4 @@
-// 1.20.1	2023-10-18T18:41:04.564108	Block States: wobble
+// 1.20.1	2023-10-19T18:13:24.980262	Block States: wobble
 076d780365be1b38276ff07ad01727c9a85955f3 assets/wobble/blockstates/deepslate_sapphire_ore.json
 77affad200c99f8bc91f01a931204d6af54334a6 assets/wobble/blockstates/end_stone_sapphire_ore.json
 aeac1dabd83b9c899e21adfe2fd599bc54f2bd03 assets/wobble/blockstates/nether_sapphire_ore.json
@@ -15,6 +15,7 @@ feb4c970687912f0b1ad404387c60cc79f301171 assets/wobble/blockstates/sapphire_slab
 8a08985f452ac8467ee3675ec7d863dd3e75f905 assets/wobble/blockstates/sapphire_trapdoor.json
 642a245d882d7204237c2a52996d4cfa11e22e7c assets/wobble/blockstates/sapphire_wall.json
 e2c90ea3b0253a1e3ecfa52a1d56282177090f16 assets/wobble/blockstates/sound_block.json
+0161cbcbd02f0e6dcc6fb029a3baf6c85b96e334 assets/wobble/blockstates/strawberry_crop.json
 69ee0b863eaf4e1e98d882219caeb4e943cf0a70 assets/wobble/models/block/deepslate_sapphire_ore.json
 d098298a8a7be35fd54d1c22a64dae9d3d09adbb assets/wobble/models/block/end_stone_sapphire_ore.json
 87018dfd5a960d1127a24ffde3accfdc648220f9 assets/wobble/models/block/nether_sapphire_ore.json
@@ -51,6 +52,12 @@ c84de3d850890b115a850cb77357403fa8aef5d1 assets/wobble/models/block/sapphire_wal
 1ed724aee1b2ffe416b24a5635327c95cec901bd assets/wobble/models/block/sapphire_wall_side.json
 4996d3063b53a4876e61e18826c0f57eb1801710 assets/wobble/models/block/sapphire_wall_side_tall.json
 59b16ffc638254b982ca8c2bca651677af21dddd assets/wobble/models/block/sound_block.json
+97b57e2898d0e68d117299d00fe48c8bdf7d6e62 assets/wobble/models/block/strawberry_stage0.json
+c0997177c9d4676b643f4b1df5153c7ab22e9fc4 assets/wobble/models/block/strawberry_stage1.json
+802da786ba70e602329c0345b7e209953b75058a assets/wobble/models/block/strawberry_stage2.json
+f87864e86d78e13d33c32cb4bf26c3072ca22289 assets/wobble/models/block/strawberry_stage3.json
+3fb9eb78ae2e683260b06d6e8a27b6828bfca6b7 assets/wobble/models/block/strawberry_stage4.json
+37c0787b7679ee44ab16b7846ffb1b77bc399f3f assets/wobble/models/block/strawberry_stage5.json
 2491e412e04ddfcb4400237a14fb3311090142b8 assets/wobble/models/item/deepslate_sapphire_ore.json
 9c879c0a355dc1dadb61d8f613139377bde158f7 assets/wobble/models/item/end_stone_sapphire_ore.json
 e4e39455c32689b879003b319aaf38aa2201321f assets/wobble/models/item/nether_sapphire_ore.json

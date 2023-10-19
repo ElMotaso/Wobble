@@ -5,6 +5,7 @@ import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
 import net.motaso.wobble.Wobble;
 import net.motaso.wobble.block.custom.SoundBlock;
+import net.motaso.wobble.block.custom.StrawberryCropBlock;
 import net.motaso.wobble.item.ModItems;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -44,6 +45,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
             () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+        public static final RegistryObject<Block> STRAWBERRY_CROP = BLOCKS.register("strawberry_crop",
+            () -> new StrawberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
     /*
     public static final RegistryObject<Block> CHERRY_STONE = registerBlock("cherry_stone",
             () -> new SaplingBlock(new CherryTreeGrower(),

@@ -1,4 +1,4 @@
-// 1.20.1	2023-10-18T18:41:04.566486	Item Models: wobble
+// 1.20.1	2023-10-19T18:13:24.984813	Item Models: wobble
 22c017240b38fd2f451ffbedb0b8c3b66b188cac assets/wobble/models/item/cherry.json
 5728db895de54ae5ce88e32733cf89b183c41f29 assets/wobble/models/item/cherry_stone.json
 d2ae72be0910449c90e4023a9245ad6585550cf7 assets/wobble/models/item/metal_detector.json
@@ -64,3 +64,4 @@ ffd3811c3a76ecf1ab655eb7690391b301bbb86a assets/wobble/models/item/sapphire_slab
 8c4cf69731616ba58a61abb537aaeac2f6702f2f assets/wobble/models/item/sapphire_trapdoor.json
 f7650c86d8829b252e83cd52682d6d8ab385426d assets/wobble/models/item/sapphire_wall.json
 a9667677a8690ada7780a720400467b9d4c4ab24 assets/wobble/models/item/strawberry.json
+4847886caf88238d027979cc356921b14c0c8442 assets/wobble/models/item/strawberry_seeds.json
