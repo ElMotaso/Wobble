@@ -1,15 +1,19 @@
 package net.motaso.wobble.item;
 
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SaplingBlock;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.grower.CherryTreeGrower;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.material.PushReaction;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.motaso.wobble.Wobble;
-import net.motaso.wobble.item.custom.CherryItem;
-import net.motaso.wobble.item.custom.FuelItem;
-import net.motaso.wobble.item.custom.MetalDetectorItem;
-import net.motaso.wobble.item.custom.ModArmorItem;
+import net.motaso.wobble.item.custom.*;
 
 import java.awt.image.PixelGrabber;
 
@@ -32,7 +36,7 @@ public class ModItems {
     public static final RegistryObject<Item> CHERRY = ITEMS.register("cherry",
             () -> new CherryItem(new Item.Properties().food(ModFoods.CHERRY)));
     public static final RegistryObject<Item> CHERRY_STONE = ITEMS.register("cherry_stone",
-            () -> new Item(new Item.Properties()));
+            () -> new FuelItem(new Item.Properties(), 40));
 
     public static final RegistryObject<Item> SAPPHIRE_STAFF = ITEMS.register("sapphire_staff",
             () -> new Item(new Item.Properties().stacksTo(1)));

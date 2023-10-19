@@ -1,5 +1,8 @@
 package net.motaso.wobble.block;
 
+import net.minecraft.world.level.block.grower.CherryTreeGrower;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.material.PushReaction;
 import net.motaso.wobble.Wobble;
 import net.motaso.wobble.block.custom.SoundBlock;
 import net.motaso.wobble.item.ModItems;
@@ -41,6 +44,15 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
             () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    /*
+    public static final RegistryObject<Block> CHERRY_STONE = registerBlock("cherry_stone",
+            () -> new SaplingBlock(new CherryTreeGrower(),
+                    BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PINK)
+                            .noCollission().randomTicks().instabreak()
+                            .sound(SoundType.CHERRY_SAPLING)
+                            .pushReaction(PushReaction.DESTROY)));
+
+     */
 
     public static final RegistryObject<Block> SAPPHIRE_STAIRS = registerBlock("sapphire_stairs",
             () -> new StairBlock(() -> ModBlocks.SAPPHIRE_BLOCK.get().defaultBlockState(),
