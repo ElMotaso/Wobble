@@ -2,6 +2,7 @@ package net.motaso.wobble.item;
 
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SaplingBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.grower.CherryTreeGrower;
@@ -34,10 +35,13 @@ public class ModItems {
 
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
             () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
+    public static final RegistryObject<Item> STRAWBERRY_SEEDS = ITEMS.register("strawberry_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.STRAWBERRY_CROP.get(), new Item.Properties()));
+
     public static final RegistryObject<Item> CHERRY = ITEMS.register("cherry",
             () -> new CherryItem(new Item.Properties().food(ModFoods.CHERRY)));
     public static final RegistryObject<Item> CHERRY_STONE = ITEMS.register("cherry_stone",
-            () -> new FuelItem(new Item.Properties(), 40));
+            () -> new CherryStoneItem(Blocks.CHERRY_SAPLING, new Item.Properties(), 40));
 
     public static final RegistryObject<Item> SAPPHIRE_STAFF = ITEMS.register("sapphire_staff",
             () -> new Item(new Item.Properties().stacksTo(1)));
@@ -45,8 +49,6 @@ public class ModItems {
     public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
                 () -> new FuelItem(new Item.Properties(), 400));
 
-    public static final RegistryObject<Item> STRAWBERRY_SEEDS = ITEMS.register("strawberry_seeds",
-                () -> new ItemNameBlockItem(ModBlocks.STRAWBERRY_CROP.get(), new Item.Properties()));
 
     public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
                 () -> new SwordItem(ModToolTiers.SAPPHIRE, 4, 2, new Item.Properties()));
