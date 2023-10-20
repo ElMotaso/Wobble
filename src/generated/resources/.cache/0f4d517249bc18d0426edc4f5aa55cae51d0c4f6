@@ -1,4 +1,5 @@
-// 1.20.1	2023-10-19T18:13:24.980262	Block States: wobble
+// 1.20.1	2023-10-20T20:56:10.208861	Block States: wobble
+45aba4d5bc58075df083957e66adfa9d678b673f assets/wobble/blockstates/corn_crop.json
 076d780365be1b38276ff07ad01727c9a85955f3 assets/wobble/blockstates/deepslate_sapphire_ore.json
 77affad200c99f8bc91f01a931204d6af54334a6 assets/wobble/blockstates/end_stone_sapphire_ore.json
 aeac1dabd83b9c899e21adfe2fd599bc54f2bd03 assets/wobble/blockstates/nether_sapphire_ore.json
@@ -16,6 +17,15 @@ feb4c970687912f0b1ad404387c60cc79f301171 assets/wobble/blockstates/sapphire_slab
 642a245d882d7204237c2a52996d4cfa11e22e7c assets/wobble/blockstates/sapphire_wall.json
 e2c90ea3b0253a1e3ecfa52a1d56282177090f16 assets/wobble/blockstates/sound_block.json
 0161cbcbd02f0e6dcc6fb029a3baf6c85b96e334 assets/wobble/blockstates/strawberry_crop.json
+50a974e35f627ae9b086a2a9920df3a6754be4f9 assets/wobble/models/block/corn_stage_0.json
+aa5266eaa44e7ac444fe38727d29748197fcc4c2 assets/wobble/models/block/corn_stage_1.json
+2d8a006f3f143337d0585da054567fd169ee171c assets/wobble/models/block/corn_stage_2.json
+4905da44b25a75314239df91538099cedb7a80ca assets/wobble/models/block/corn_stage_3.json
+d33391415f33580de389a6f33e5ed668d7d2a06c assets/wobble/models/block/corn_stage_4.json
+49245aded2de4079f24880395e172af7e77c4a30 assets/wobble/models/block/corn_stage_5.json
+13c6a7c504c36451e30df0248567cb3d48c09796 assets/wobble/models/block/corn_stage_6.json
+c41c18bc23fcad21abd511f48a1b0595e0da0a95 assets/wobble/models/block/corn_stage_7.json
+8f602f4cfadbba7b0d842e195fe004aad8ddcf6f assets/wobble/models/block/corn_stage_8.json
 69ee0b863eaf4e1e98d882219caeb4e943cf0a70 assets/wobble/models/block/deepslate_sapphire_ore.json
 d098298a8a7be35fd54d1c22a64dae9d3d09adbb assets/wobble/models/block/end_stone_sapphire_ore.json
 87018dfd5a960d1127a24ffde3accfdc648220f9 assets/wobble/models/block/nether_sapphire_ore.json
