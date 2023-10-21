@@ -28,6 +28,12 @@
   "item.wobble.sapphire_leggings": "Sapphire Leggings",
   "item.wobble.sapphire_boots": "Sapphire Boots",
 
+  "item.wobble.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.wobble.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+  "item.wobble.nebo_i_sima_music_disc": "Небо и зима Music Disc",
+  "item.wobble.nebo_i_sima_music_disc.desc": "Marcel Minor - Небо и зима",
+
   "block.wobble.sapphire_block": "Block of Sapphire",
   "block.wobble.raw_sapphire_block": "Block of Raw Sapphire",
 
@@ -50,7 +56,10 @@
 
   "entity.minecraft.villager.wobble.soundmaster": "Sound Master",
 
+  "sounds.wobble.metal_detector_found_ore": "Metal Detector Jingle",
+
   "tooltip.wobble.metal_detector.tooltip": "Finds valuables underground.",
+
 
   "creativetab.wobble_tab": "Wobble Tab"
 }

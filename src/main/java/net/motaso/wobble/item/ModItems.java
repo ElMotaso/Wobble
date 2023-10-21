@@ -16,6 +16,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.motaso.wobble.Wobble;
 import net.motaso.wobble.block.ModBlocks;
 import net.motaso.wobble.item.custom.*;
+import net.motaso.wobble.sound.ModSounds;
 
 import java.awt.image.PixelGrabber;
 
@@ -73,6 +74,11 @@ public class ModItems {
                 () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots",
                 () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> BAR_BRAWL_MUSIC_DISC = ITEMS.register("bar_brawl_music_disc",
+                    () -> new RecordItem(6, ModSounds.BAR_BRAWL, new Item.Properties().stacksTo(1), 2440));
+    public static final RegistryObject<Item> NEBO_I_SIMA_MUSIC_DISC = ITEMS.register("nebo_i_sima_music_disc",
+                    () -> new RecordItem(6, ModSounds.NEBO_I_SIMA, new Item.Properties().stacksTo(1), 300));
 
 
     // Has to get registered in Wobble File as well

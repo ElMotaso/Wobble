@@ -20,6 +20,7 @@ import net.motaso.wobble.block.ModBlocks;
 import net.motaso.wobble.item.ModCreativeModTabs;
 import net.motaso.wobble.item.ModItems;
 import net.motaso.wobble.loot.ModLootModifiers;
+import net.motaso.wobble.sound.ModSounds;
 import net.motaso.wobble.villager.ModVillagers;
 import org.slf4j.Logger;
 
@@ -45,6 +46,8 @@ public class Wobble
         ModBlocks.register(modEventBus);
 
         ModVillagers.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);

@@ -43,6 +43,9 @@ public class ModCreativeModTabs {
                                 pOutput.accept(ModItems.SAPPHIRE_LEGGINGS.get());
                                 pOutput.accept(ModItems.SAPPHIRE_BOOTS.get());
 
+                                pOutput.accept(ModItems.BAR_BRAWL_MUSIC_DISC.get());
+                                pOutput.accept(ModItems.NEBO_I_SIMA_MUSIC_DISC.get());
+
                                 pOutput.accept(ModItems.PINE_CONE.get());
 
                                 pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
