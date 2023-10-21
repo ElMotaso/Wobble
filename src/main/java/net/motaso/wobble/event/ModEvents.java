@@ -52,7 +52,7 @@ public class ModEvents {
     }
 
     @SubscribeEvent
-    public static void addCurstomWanderingTrades(WandererTradesEvent event) {
+    public static void addCustomWanderingTrades(WandererTradesEvent event) {
         List<VillagerTrades.ItemListing> genericTrades = event.getGenericTrades();
         List<VillagerTrades.ItemListing> rareTrades = event.getRareTrades();
 
