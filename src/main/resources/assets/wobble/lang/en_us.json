@@ -48,6 +48,8 @@
 
   "block.wobble.sound_block": "Sound Block",
 
+  "entity.minecraft.villager.wobble.soundmaster": "Sound Master",
+
   "tooltip.wobble.metal_detector.tooltip": "Finds valuables underground.",
 
   "creativetab.wobble_tab": "Wobble Tab"

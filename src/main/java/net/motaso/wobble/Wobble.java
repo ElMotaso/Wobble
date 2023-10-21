@@ -20,6 +20,7 @@ import net.motaso.wobble.block.ModBlocks;
 import net.motaso.wobble.item.ModCreativeModTabs;
 import net.motaso.wobble.item.ModItems;
 import net.motaso.wobble.loot.ModLootModifiers;
+import net.motaso.wobble.villager.ModVillagers;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -42,6 +43,8 @@ public class Wobble
 
         ModLootModifiers.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModVillagers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
