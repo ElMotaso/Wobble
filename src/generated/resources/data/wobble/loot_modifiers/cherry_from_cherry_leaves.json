@@ -1,0 +1,14 @@
+{
+  "type": "wobble:add_item",
+  "conditions": [
+    {
+      "block": "minecraft:cherry_leaves",
+      "condition": "minecraft:block_state_property"
+    },
+    {
+      "chance": 0.33,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "wobble:cherry"
+}

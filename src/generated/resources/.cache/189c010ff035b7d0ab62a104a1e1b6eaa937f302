@@ -1,0 +1,7 @@
+// 1.20.1	2023-10-19T17:43:35.828758	Global Loot Modifiers : wobble
+aa20fc9f459774a3e73958d5e3d67f8f8521c2f7 data/forge/loot_modifiers/global_loot_modifiers.json
+05f0f99278358bbccdc4ac166044654cba88cf88 data/wobble/loot_modifiers/cherry_from_cherry_leaves.json
+6fa9c72bda23e9738ba2c00035d4bfa8de739fd7 data/wobble/loot_modifiers/metal_detector_from_jungle_temples.json
+03719d23ef4c3cce872ef20f23c980af7d219ea2 data/wobble/loot_modifiers/metal_detector_from_suspicious_sand.json
+e91fd7ddf17aa7dcb8d7d85d74806ca24ffe1811 data/wobble/loot_modifiers/pine_cone_from_creeper.json
+e720c9f679f94df9f478fe25b03e16c054798a0e data/wobble/loot_modifiers/pine_cone_from_grass.json

@@ -1,0 +1,10 @@
+{
+  "entries": [
+    "wobble:pine_cone_from_grass",
+    "wobble:pine_cone_from_creeper",
+    "wobble:metal_detector_from_suspicious_sand",
+    "wobble:metal_detector_from_jungle_temples",
+    "wobble:cherry_from_cherry_leaves"
+  ],
+  "replace": false
+}
