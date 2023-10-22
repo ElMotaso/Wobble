@@ -1,4 +1,4 @@
-// 1.20.1	2023-10-21T17:01:22.134853	Item Models: wobble
+// 1.20.1	2023-10-22T18:43:26.845766	Item Models: wobble
 aabed483f667b8cb2f8c8d9bcdb0a92c54998a09 assets/wobble/models/item/bar_brawl_music_disc.json
 2e6e72d87aa1fa21b0c4419d0962d3744acb11d3 assets/wobble/models/item/catmint.json
 22c017240b38fd2f451ffbedb0b8c3b66b188cac assets/wobble/models/item/cherry.json
@@ -9,6 +9,7 @@ d2ae72be0910449c90e4023a9245ad6585550cf7 assets/wobble/models/item/metal_detecto
 433accb6145a6176916d7b1789e3a55219861776 assets/wobble/models/item/nebo_i_sima_music_disc.json
 4ba389484ffa318d22e59786c991fa4698f9162a assets/wobble/models/item/pine_cone.json
 e6cef8ac5c1d6e4fe25dbacf9f37c6c355b560df assets/wobble/models/item/raw_sapphire.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/wobble/models/item/rhino_spawn_egg.json
 38b282af347943620be8532b569942c5d6c2725b assets/wobble/models/item/sapphire.json
 10596071910ec759a16b4ee632dd6ca6af899d90 assets/wobble/models/item/sapphire_axe.json
 7dd794ffce1b7df206eac66e3349b3a64fdbfcd6 assets/wobble/models/item/sapphire_boots.json

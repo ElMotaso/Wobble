@@ -9,12 +9,16 @@ import net.minecraft.world.level.block.grower.CherryTreeGrower;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.motaso.wobble.Wobble;
 import net.motaso.wobble.block.ModBlocks;
+import net.motaso.wobble.entity.ModEntities;
+import net.motaso.wobble.entity.client.RhinoModel;
+import net.motaso.wobble.entity.custom.RhinoEntity;
 import net.motaso.wobble.item.custom.*;
 import net.motaso.wobble.sound.ModSounds;
 
@@ -80,6 +84,9 @@ public class ModItems {
     public static final RegistryObject<Item> NEBO_I_SIMA_MUSIC_DISC = ITEMS.register("nebo_i_sima_music_disc",
                     () -> new RecordItem(6, ModSounds.NEBO_I_SIMA, new Item.Properties().stacksTo(1), 300));
 
+    public static final RegistryObject<Item> RHINO_SPAWN_EGG = ITEMS.register("rhino_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.RHINO, 0x7e9680, 0xc5d1c5,
+                    new Item.Properties()));
 
     // Has to get registered in Wobble File as well
     public static void register(IEventBus eventBus) {
