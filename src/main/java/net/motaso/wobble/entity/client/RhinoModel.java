@@ -12,7 +12,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.Entity;
 import net.minecraftforge.fml.common.Mod;
-import net.motaso.wobble.entity.animations.ModAnimationDefinition;
+import net.motaso.wobble.entity.animations.ModAnimationDefinitions;
 import net.motaso.wobble.entity.custom.RhinoEntity;
 
 public class RhinoModel<T extends Entity> extends HierarchicalModel<T> {
@@ -90,7 +90,7 @@ public class RhinoModel<T extends Entity> extends HierarchicalModel<T> {
 		this.root().getAllParts().forEach(ModelPart::resetPose);
 		this.applyHeadRotation(netHeadYaw, headPitch, ageInTicks);
 
-		this.animateWalk(ModAnimationDefinition.RHINO_WALK, limbSwing, limbSwingAmount, 2f, 2.5f);
+		this.animateWalk(ModAnimationDefinitions.RHINO_WALK, limbSwing, limbSwingAmount, 2f, 2.5f);
 		this.animate(((RhinoEntity) entity).idleAnimationState, ModAnimationDefinition.RHINO_IDLE, ageInTicks, 1f);
 		this.animate(((RhinoEntity) entity).attackAnimationState, ModAnimationDefinition.RHINO_ATTACK, ageInTicks, 1f);
 	}

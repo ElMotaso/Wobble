@@ -1,5 +1,8 @@
 package net.motaso.wobble.entity.custom;
 
+import net.motaso.wobble.entity.ModEntities;
+import net.motaso.wobble.entity.ai.RhinoAttackGoal;
+import net.motaso.wobble.item.ModItems;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.SynchedEntityData;
@@ -18,11 +21,9 @@ import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.Level;
-import net.motaso.wobble.entity.ModEntities;
-import net.motaso.wobble.entity.ai.RhinoAttackGoal;
-import net.motaso.wobble.item.ModItems;
 import org.jetbrains.annotations.Nullable;
 
 public class RhinoEntity extends Animal {
@@ -99,16 +100,17 @@ public class RhinoEntity extends Animal {
     protected void registerGoals() {
         this.goalSelector.addGoal(0, new FloatGoal(this));
 
-        this.goalSelector.addGoal(1, new RhinoAttackGoal(this, 1.0D, true));
 
         this.goalSelector.addGoal(1, new BreedGoal(this, 1.15D));
         this.goalSelector.addGoal(2, new TemptGoal(this, 1.2D, Ingredient.of(ModItems.STRAWBERRY.get()), false));
 
-        this.goalSelector.addGoal(3, new FollowParentGoal(this, 1.1D));
+        this.goalSelector.addGoal(3, new RhinoAttackGoal(this, 1.0D, true));
 
-        this.goalSelector.addGoal(4, new WaterAvoidingRandomStrollGoal(this, 1.1D));
-        this.goalSelector.addGoal(5, new LookAtPlayerGoal(this, Player.class, 3f));
-        this.goalSelector.addGoal(6, new RandomLookAroundGoal(this));
+        this.goalSelector.addGoal(4, new FollowParentGoal(this, 1.1D));
+
+        this.goalSelector.addGoal(5, new WaterAvoidingRandomStrollGoal(this, 1.1D));
+        this.goalSelector.addGoal(6, new LookAtPlayerGoal(this, Player.class, 3f));
+        this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
 
         this.targetSelector.addGoal(1, new HurtByTargetGoal(this));
     }
@@ -131,7 +133,7 @@ public class RhinoEntity extends Animal {
 
     @Override
     public boolean isFood(ItemStack pStack) {
-        return pStack.is(ModItems.STRAWBERRY.get());
+        return pStack.is(Items.COOKED_BEEF);
     }
 
     @Nullable
@@ -149,6 +151,6 @@ public class RhinoEntity extends Animal {
     @Nullable
     @Override
     protected SoundEvent getDeathSound() {
-        return SoundEvents.DONKEY_DEATH;
+        return SoundEvents.DOLPHIN_DEATH;
     }
 }

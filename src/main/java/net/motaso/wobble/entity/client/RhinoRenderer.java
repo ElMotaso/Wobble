@@ -1,12 +1,12 @@
 package net.motaso.wobble.entity.client;
 
 import com.mojang.blaze3d.vertex.PoseStack;
+import net.motaso.wobble.Wobble;
+import net.motaso.wobble.entity.custom.RhinoEntity;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;
-import net.motaso.wobble.Wobble;
-import net.motaso.wobble.entity.custom.RhinoEntity;
 
 public class RhinoRenderer extends MobRenderer<RhinoEntity, RhinoModel<RhinoEntity>> {
     public RhinoRenderer(EntityRendererProvider.Context pContext) {
