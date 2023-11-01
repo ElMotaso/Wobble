@@ -1,0 +1,8 @@
+{
+  "values": [
+    {
+      "id": "wobble:sound_poi",
+      "required": false
+    }
+  ]
+}

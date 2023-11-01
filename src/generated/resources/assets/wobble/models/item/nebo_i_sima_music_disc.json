@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "wobble:item/nebo_i_sima_music_disc"
+  }
+}
