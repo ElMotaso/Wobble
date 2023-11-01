@@ -1,8 +1,9 @@
-// 1.20.1	2023-10-21T13:46:20.998452	Block States: wobble
+// 1.20.1	2023-11-01T12:26:24.486865	Block States: wobble
 911e68798cec0a6dbdcfa686cdfe860efb37127c assets/wobble/blockstates/catmint.json
 45aba4d5bc58075df083957e66adfa9d678b673f assets/wobble/blockstates/corn_crop.json
 076d780365be1b38276ff07ad01727c9a85955f3 assets/wobble/blockstates/deepslate_sapphire_ore.json
 77affad200c99f8bc91f01a931204d6af54334a6 assets/wobble/blockstates/end_stone_sapphire_ore.json
+cbb0f5fe54a209ba408d49e9bc31dcfce88f25ed assets/wobble/blockstates/gem_polishing_station.json
 aeac1dabd83b9c899e21adfe2fd599bc54f2bd03 assets/wobble/blockstates/nether_sapphire_ore.json
 dcdd0208174d565c79b57db28d58229b1bd15467 assets/wobble/blockstates/potted_catmint.json
 0e353fb1479d7f1a969ac289ca85502ed7195221 assets/wobble/blockstates/raw_sapphire_block.json
@@ -75,6 +76,7 @@ f87864e86d78e13d33c32cb4bf26c3072ca22289 assets/wobble/models/block/strawberry_s
 c3e95d650b83d984c922153af4767a0c6fc05b0b assets/wobble/models/item/catmint.json
 2491e412e04ddfcb4400237a14fb3311090142b8 assets/wobble/models/item/deepslate_sapphire_ore.json
 9c879c0a355dc1dadb61d8f613139377bde158f7 assets/wobble/models/item/end_stone_sapphire_ore.json
+f2c568f650430a99283b016af5c3aa789b17892d assets/wobble/models/item/gem_polishing_station.json
 e4e39455c32689b879003b319aaf38aa2201321f assets/wobble/models/item/nether_sapphire_ore.json
 b2ed387f0c60091ce7e480dff55ee7a5e42f5dff assets/wobble/models/item/potted_catmint.json
 e2b06d866a50fd2c3b3d41e5b2d80a4504346fcd assets/wobble/models/item/raw_sapphire_block.json
