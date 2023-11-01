@@ -1,0 +1,12 @@
+{
+  "type": "wobble:gem_polishing",
+  "ingredients": [
+    {
+      "item": "wobble:raw_sapphire"
+    }
+  ],
+  "output": {
+    "count": 3,
+    "item": "wobble:sapphire"
+  }
+}

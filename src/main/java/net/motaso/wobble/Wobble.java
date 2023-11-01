@@ -25,6 +25,7 @@ import net.motaso.wobble.entity.client.RhinoRenderer;
 import net.motaso.wobble.item.ModCreativeModTabs;
 import net.motaso.wobble.item.ModItems;
 import net.motaso.wobble.loot.ModLootModifiers;
+import net.motaso.wobble.recipe.ModRecipes;
 import net.motaso.wobble.screen.GemPolishingStationScreen;
 import net.motaso.wobble.screen.ModMenuTypes;
 import net.motaso.wobble.sound.ModSounds;
@@ -57,6 +58,7 @@ public class Wobble
         ModEntities.register(modEventBus);
 
         ModBlockEntities.register(modEventBus);
+        ModRecipes.register(modEventBus);
         ModMenuTypes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
