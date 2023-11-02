@@ -23,6 +23,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             ModBlocks.END_STONE_SAPPHIRE_ORE.get()
             );
 
+    private static final List<ItemLike> ALEXANDRITE_SMELTABLES = List.of(
+            ModItems.RAW_ALEXANDRITE.get(),
+            ModBlocks.ALEXANDRITE_ORE.get(),
+            ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(),
+            ModBlocks.NETHER_ALEXANDRITE_ORE.get(),
+            ModBlocks.END_STONE_ALEXANDRITE_ORE.get()
+    );
+
     public ModRecipeProvider(PackOutput pOutput) {
         super(pOutput);
     }
@@ -43,6 +51,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 9)
                 .requires(ModBlocks.SAPPHIRE_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
+                .save(pWriter);
+
+
+
+
+        oreSmelting(pWriter, ALEXANDRITE_SMELTABLES, RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 0.25F, 200, "alexandrite");
+        oreBlasting(pWriter, ALEXANDRITE_SMELTABLES, RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 0.25F, 100, "alexandrite");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ALEXANDRITE_BLOCK.get())
+                .pattern("SSS")
+                .pattern("SSS")
+                .pattern("SSS")
+                .define('S', ModItems.ALEXANDRITE.get())
+                .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has((ModItems.ALEXANDRITE.get())))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 9)
+                .requires(ModBlocks.ALEXANDRITE_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.ALEXANDRITE_BLOCK.get()), has(ModBlocks.ALEXANDRITE_BLOCK.get()))
                 .save(pWriter);
     }
 

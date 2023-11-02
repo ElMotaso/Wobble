@@ -1,9 +1,9 @@
-// 1.20.1	2023-10-15T14:03:16.646106	Tags for minecraft:block mod id wobble
-e05aea64cd080945a2446f377003955e241566d5 data/forge/tags/blocks/needs_netherite_tool.json
+// 1.20.1	2023-11-01T17:13:48.746224	Tags for minecraft:block mod id wobble
+97afbe25744458362d7bf568a3b796ef2b45ac82 data/forge/tags/blocks/needs_netherite_tool.json
 86885f57928f050e9badd78e160c875872d39dee data/minecraft/tags/blocks/fence_gates.json
 5a9dbea9f5dd12804a625268073e69accd9d8919 data/minecraft/tags/blocks/fences.json
-c593dca93e068f8a9a993caf2e7a28707bb1f44a data/minecraft/tags/blocks/mineable/pickaxe.json
-79ad730f65dc537dfd1ccfa6c7861dfe4cd586de data/minecraft/tags/blocks/needs_diamond_tool.json
+8e8fc54bb52e0ed0988b7cbae8f3b9a03f09f303 data/minecraft/tags/blocks/mineable/pickaxe.json
+5c1adb16211bda8f14a2619c664c915cb3e1af43 data/minecraft/tags/blocks/needs_diamond_tool.json
 b22e39a50c528d42a03163144e5dc3a6a893782e data/minecraft/tags/blocks/needs_iron_tool.json
 cd106587f405cef535580fe01802182ce8f2dd42 data/minecraft/tags/blocks/needs_stone_tool.json
 39a2cf2f72ce2b9af45a10dabc064fe2a9c487fa data/minecraft/tags/blocks/walls.json

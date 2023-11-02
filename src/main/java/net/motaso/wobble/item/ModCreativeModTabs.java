@@ -14,10 +14,10 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Wobble.MODID);
 
-    public static final RegistryObject<CreativeModeTab> WOBBLE_TAB =
-            CREATIVE_MODE_TABS.register("wobble_tab",
+    public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB =
+            CREATIVE_MODE_TABS.register("tutorial_tab",
                     () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
-                            .title(Component.translatable("creativetab.wobble_tab"))
+                            .title(Component.translatable("creativetab.tutorial_tab"))
                             .displayItems(((pParameters, pOutput) -> {
                                 pOutput.accept(ModItems.SAPPHIRE.get());
                                 pOutput.accept(ModItems.RAW_SAPPHIRE.get());
@@ -28,8 +28,6 @@ public class ModCreativeModTabs {
                                 pOutput.accept(ModItems.STRAWBERRY_SEEDS.get());
                                 pOutput.accept(ModItems.CORN.get());
                                 pOutput.accept(ModItems.CORN_SEEDS.get());
-                                pOutput.accept(ModItems.CHERRY.get());
-                                pOutput.accept(ModItems.CHERRY_STONE.get());
 
                                 pOutput.accept(ModItems.SAPPHIRE_STAFF.get());
                                 pOutput.accept(ModItems.SAPPHIRE_SWORD.get());
@@ -44,7 +42,6 @@ public class ModCreativeModTabs {
                                 pOutput.accept(ModItems.SAPPHIRE_BOOTS.get());
 
                                 pOutput.accept(ModItems.BAR_BRAWL_MUSIC_DISC.get());
-                                pOutput.accept(ModItems.NEBO_I_SIMA_MUSIC_DISC.get());
 
                                 pOutput.accept(ModItems.RHINO_SPAWN_EGG.get());
 
@@ -74,6 +71,40 @@ public class ModCreativeModTabs {
                                 pOutput.accept(ModBlocks.CATMINT.get());
 
 
+                            }))
+                            .build());
+    public static final RegistryObject<CreativeModeTab> COURSE_TAB =
+            CREATIVE_MODE_TABS.register("course_tab",
+                    () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ALEXANDRITE.get()))
+                            .title(Component.translatable("creativetab.course_tab"))
+                            .displayItems(((pParameters, pOutput) -> {
+                                pOutput.accept(ModItems.ALEXANDRITE.get());
+                                pOutput.accept(ModItems.RAW_ALEXANDRITE.get());
+
+                                pOutput.accept(ModItems.KOHLRABI.get());
+
+                                pOutput.accept(ModItems.PEAT_BRICK.get());
+
+
+                                pOutput.accept(ModBlocks.ALEXANDRITE_BLOCK.get());
+                                pOutput.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
+
+                                pOutput.accept(ModBlocks.ALEXANDRITE_ORE.get());
+                                pOutput.accept(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get());
+                                pOutput.accept(ModBlocks.NETHER_ALEXANDRITE_ORE.get());
+                                pOutput.accept(ModBlocks.END_STONE_ALEXANDRITE_ORE.get());
+                            }))
+                            .build());
+
+    public static final RegistryObject<CreativeModeTab> WOBBLE_TAB =
+            CREATIVE_MODE_TABS.register("wobble_tab",
+                    () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CHERRY.get()))
+                            .title(Component.translatable("creativetab.wobble_tab"))
+                            .displayItems(((pParameters, pOutput) -> {
+                                pOutput.accept(ModItems.CHERRY.get());
+                                pOutput.accept(ModItems.CHERRY_STONE.get());
+
+                                pOutput.accept(ModItems.NEBO_I_SIMA_MUSIC_DISC.get());
                             }))
                             .build());
 

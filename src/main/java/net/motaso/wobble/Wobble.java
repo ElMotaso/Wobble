@@ -79,6 +79,10 @@ public class Wobble
             event.accept(ModItems.SAPPHIRE);
             event.accept(ModItems.RAW_SAPPHIRE);
         }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.SAPPHIRE_BLOCK);
+            event.accept(ModBlocks.RAW_SAPPHIRE_BLOCK);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

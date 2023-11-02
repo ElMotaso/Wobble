@@ -13,8 +13,6 @@ import net.motaso.wobble.entity.ModEntities;
 import net.motaso.wobble.item.custom.*;
 import net.motaso.wobble.sound.ModSounds;
 
-import java.awt.image.PixelGrabber;
-
 public class ModItems {
     // List of Items
     public static final DeferredRegister<Item> ITEMS =
@@ -26,11 +24,16 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> ALEXANDRITE = ITEMS.register("alexandrite",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_ALEXANDRITE = ITEMS.register("raw_alexandrite",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
             () -> new MetalDetectorItem(new Item.Properties().durability(100)));
 
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
-            () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
+            () -> new Item(new Item.Properties().food(ModFoodProperties.STRAWBERRY)));
     public static final RegistryObject<Item> STRAWBERRY_SEEDS = ITEMS.register("strawberry_seeds",
             () -> new ItemNameBlockItem(ModBlocks.STRAWBERRY_CROP.get(), new Item.Properties()));
     public static final RegistryObject<Item> CORN_SEEDS = ITEMS.register("corn_seeds",
@@ -39,15 +42,19 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> CHERRY = ITEMS.register("cherry",
-            () -> new CherryItem(new Item.Properties().food(ModFoods.CHERRY)));
+            () -> new CherryItem(new Item.Properties().food(ModFoodProperties.CHERRY)));
     public static final RegistryObject<Item> CHERRY_STONE = ITEMS.register("cherry_stone",
             () -> new CherryStoneItem(Blocks.CHERRY_SAPLING, new Item.Properties(), 40));
-
+    public static final RegistryObject<Item> KOHLRABI = ITEMS.register("kohlrabi",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.KOHLRABI)));
     public static final RegistryObject<Item> SAPPHIRE_STAFF = ITEMS.register("sapphire_staff",
             () -> new Item(new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
                 () -> new FuelItem(new Item.Properties(), 400));
+
+    public static final RegistryObject<Item> PEAT_BRICK = ITEMS.register("peat_brick",
+            () -> new FuelItem(new Item.Properties(), 200));
 
 
     public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",

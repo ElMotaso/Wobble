@@ -44,14 +44,19 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SAPPHIRE);
         simpleItem(ModItems.RAW_SAPPHIRE);
 
+        simpleItem(ModItems.ALEXANDRITE);
+        simpleItem(ModItems.RAW_ALEXANDRITE);
+
         simpleItem(ModItems.METAL_DETECTOR);
         simpleItem(ModItems.PINE_CONE);
+        simpleItem(ModItems.PEAT_BRICK);
         simpleItem(ModItems.STRAWBERRY);
         simpleItem(ModItems.STRAWBERRY_SEEDS);
         simpleItem(ModItems.CORN);
         simpleItem(ModItems.CORN_SEEDS);
         simpleItem(ModItems.CHERRY);
         simpleItem(ModItems.CHERRY_STONE);
+        simpleItem(ModItems.KOHLRABI);
         simpleItem(ModItems.BAR_BRAWL_MUSIC_DISC);
         simpleItem(ModItems.NEBO_I_SIMA_MUSIC_DISC);
 
@@ -138,11 +143,6 @@ public class ModItemModelProvider extends ItemModelProvider {
                 new ResourceLocation(Wobble.MODID,"item/" + item.getId().getPath()));
     }
 
-    public void evenSimplerBlockItem(RegistryObject<Block> block) {
-        this.withExistingParent(Wobble.MODID + ":" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath(),
-                modLoc("block/" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath()));
-    }
-
     public void trapdoorItem(RegistryObject<Block> block) {
         this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(),
                 modLoc("block/" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath() + "_bottom"));
@@ -172,9 +172,15 @@ public class ModItemModelProvider extends ItemModelProvider {
     private ItemModelBuilder simpleBlockItem(RegistryObject<Block> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
-                new ResourceLocation(Wobble.MODID,"item/" + item.getId().getPath()));
+                new ResourceLocation(Wobble.MODID, "item/" + item.getId().getPath()));
+    }
 
-    }private ItemModelBuilder simpleBlockItemBlockTexture(RegistryObject<Block> item) {
+    public void evenSimplerBlockItem(RegistryObject<Block> block) {
+        this.withExistingParent(Wobble.MODID + ":" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath(),
+                modLoc("block/" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath()));
+    }
+
+    private ItemModelBuilder simpleBlockItemBlockTexture(RegistryObject<Block> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(Wobble.MODID,"block/" + item.getId().getPath()));

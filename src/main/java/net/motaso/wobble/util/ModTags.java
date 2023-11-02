@@ -22,5 +22,8 @@ public class ModTags {
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation(Wobble.MODID, name));
         }
+        private static TagKey<Item> forgeTag(String name) {
+            return ItemTags.create(new ResourceLocation("forge", name));
+        }
     }
 }

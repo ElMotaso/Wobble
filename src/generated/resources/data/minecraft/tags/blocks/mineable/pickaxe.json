@@ -6,6 +6,12 @@
     "wobble:deepslate_sapphire_ore",
     "wobble:nether_sapphire_ore",
     "wobble:end_stone_sapphire_ore",
+    "wobble:alexandrite_block",
+    "wobble:raw_alexandrite_block",
+    "wobble:alexandrite_ore",
+    "wobble:deepslate_alexandrite_ore",
+    "wobble:nether_alexandrite_ore",
+    "wobble:end_stone_alexandrite_ore",
     "wobble:sound_block"
   ]
 }

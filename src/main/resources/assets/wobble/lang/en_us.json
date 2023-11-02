@@ -1,6 +1,8 @@
 {
   "item.wobble.sapphire": "Sapphire",
   "item.wobble.raw_sapphire": "Raw Sapphire",
+  "item.wobble.alexandrite": "Alexandrite",
+  "item.wobble.raw_alexandrite": "Raw Alexandrite",
 
   "item.wobble.metal_detector": "Metal Detector",
 
@@ -39,6 +41,9 @@
   "block.wobble.sapphire_block": "Block of Sapphire",
   "block.wobble.raw_sapphire_block": "Block of Raw Sapphire",
 
+  "block.wobble.alexandrite_block": "Block of Alexandrite",
+  "block.wobble.raw_alexandrite_block": "Block of Raw Alexandrite",
+
   "block.wobble.sapphire_stairs": "Sapphire Stairs",
   "block.wobble.sapphire_slab": "Sapphire Slab",
   "block.wobble.sapphire_button": "Sapphire Button",
@@ -54,6 +59,11 @@
   "block.wobble.nether_sapphire_ore": "Nether Sapphire Ore",
   "block.wobble.end_stone_sapphire_ore": "End Stone Sapphire Ore",
 
+  "block.wobble.alexandrite_ore": "Alexandrite Ore",
+  "block.wobble.deepslate_alexandrite_ore": "Deepslate Alexandrite Ore",
+  "block.wobble.nether_alexandrite_ore": "Nether Alexandrite Ore",
+  "block.wobble.end_stone_alexandrite_ore": "End Stone Alexandrite Ore",
+
   "block.wobble.sound_block": "Sound Block",
 
   "block.wobble.gem_polishing_station": "Gem Polishing Station",
@@ -65,5 +75,7 @@
   "tooltip.wobble.metal_detector.tooltip": "Finds valuables underground.",
 
 
+  "creativetab.tutorial_tab": "Tutorial Tab",
+  "creativetab.course_tab": "Course Tab",
   "creativetab.wobble_tab": "Wobble Tab"
 }

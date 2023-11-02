@@ -31,6 +31,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     protected void generate() {
         this.dropSelf(ModBlocks.SAPPHIRE_BLOCK.get());
         this.dropSelf(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+        this.dropSelf(ModBlocks.ALEXANDRITE_BLOCK.get());
+        this.dropSelf(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
         this.dropSelf(ModBlocks.SOUND_BLOCK.get());
         this.dropSelf(ModBlocks.GEM_POLISHING_STATION.get());
 
@@ -80,6 +82,15 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createCopperLikeOreDrops(ModBlocks.NETHER_SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
         this.add(ModBlocks.END_STONE_SAPPHIRE_ORE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.END_STONE_SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
+
+        this.add(ModBlocks.ALEXANDRITE_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.ALEXANDRITE_ORE.get(), ModItems.RAW_ALEXANDRITE.get()));
+        this.add(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(), ModItems.RAW_ALEXANDRITE.get()));
+        this.add(ModBlocks.NETHER_ALEXANDRITE_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.NETHER_ALEXANDRITE_ORE.get(), ModItems.RAW_ALEXANDRITE.get()));
+        this.add(ModBlocks.END_STONE_ALEXANDRITE_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.END_STONE_ALEXANDRITE_ORE.get(), ModItems.RAW_ALEXANDRITE.get()));
 
     }
 

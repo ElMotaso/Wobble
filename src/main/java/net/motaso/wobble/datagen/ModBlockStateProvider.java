@@ -32,6 +32,16 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.END_STONE_SAPPHIRE_ORE);
         blockWithItem(ModBlocks.NETHER_SAPPHIRE_ORE);
 
+
+        blockWithItem(ModBlocks.ALEXANDRITE_BLOCK);
+        blockWithItem(ModBlocks.RAW_ALEXANDRITE_BLOCK);
+
+        blockWithItem(ModBlocks.ALEXANDRITE_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE);
+        blockWithItem(ModBlocks.END_STONE_ALEXANDRITE_ORE);
+        blockWithItem(ModBlocks.NETHER_ALEXANDRITE_ORE);
+
+
         blockWithItem(ModBlocks.SOUND_BLOCK);
 
         stairsBlock(((StairBlock) ModBlocks.SAPPHIRE_STAIRS.get()), blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()));

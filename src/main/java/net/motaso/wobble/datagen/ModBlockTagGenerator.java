@@ -30,6 +30,14 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get(),
                         ModBlocks.NETHER_SAPPHIRE_ORE.get(),
                         ModBlocks.END_STONE_SAPPHIRE_ORE.get(),
+
+                        ModBlocks.ALEXANDRITE_BLOCK.get(),
+                        ModBlocks.RAW_ALEXANDRITE_BLOCK.get(),
+                        ModBlocks.ALEXANDRITE_ORE.get(),
+                        ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(),
+                        ModBlocks.NETHER_ALEXANDRITE_ORE.get(),
+                        ModBlocks.END_STONE_ALEXANDRITE_ORE.get(),
+
                         ModBlocks.SOUND_BLOCK.get());
 
 
@@ -37,13 +45,15 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.SAPPHIRE_BLOCK.get());
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+                .add(ModBlocks.RAW_SAPPHIRE_BLOCK.get(),
+                        ModBlocks.ALEXANDRITE_BLOCK.get());
 
         this.tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.NETHER_SAPPHIRE_ORE.get());
 
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
-                .add(ModBlocks.END_STONE_SAPPHIRE_ORE.get());
+                .add(ModBlocks.END_STONE_SAPPHIRE_ORE.get(),
+                        ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
 
         this.tag(ModTags.Blocks.NEEDS_SAPPHIRE_TOOL)
                 .add(ModBlocks.SOUND_BLOCK.get());
