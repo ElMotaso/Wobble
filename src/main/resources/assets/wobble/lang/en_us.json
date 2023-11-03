@@ -38,7 +38,7 @@
   "item.wobble.sapphire_leggings": "Sapphire Leggings",
   "item.wobble.sapphire_boots": "Sapphire Boots",
 
-"item.wobble.alexandrite_helmet": "Alexandrite Helmet",
+  "item.wobble.alexandrite_helmet": "Alexandrite Helmet",
   "item.wobble.alexandrite_chestplate": "Alexandrite Chestplate",
   "item.wobble.alexandrite_leggings": "Alexandrite Leggings",
   "item.wobble.alexandrite_boots": "Alexandrite Boots",
@@ -92,6 +92,8 @@
   "block.wobble.sound_block": "Sound Block",
 
   "block.wobble.gem_polishing_station": "Gem Polishing Station",
+
+  "enchantment.wobble.lightning_striker": "Lightning Striker",
 
   "entity.minecraft.villager.wobble.soundmaster": "Sound Master",
 

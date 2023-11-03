@@ -20,6 +20,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.motaso.wobble.block.ModBlocks;
 import net.motaso.wobble.block.entity.ModBlockEntities;
+import net.motaso.wobble.enchantment.ModEnchantments;
 import net.motaso.wobble.entity.ModEntities;
 import net.motaso.wobble.entity.client.RhinoRenderer;
 import net.motaso.wobble.item.ModCreativeModTabs;
@@ -60,6 +61,7 @@ public class Wobble
         ModBlockEntities.register(modEventBus);
         ModRecipes.register(modEventBus);
         ModMenuTypes.register(modEventBus);
+        ModEnchantments.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
