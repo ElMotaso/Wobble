@@ -18,7 +18,8 @@ public class ModArmorItem extends ArmorItem {
                     .put(ModArmorMaterials.SAPPHIRE, new MobEffectInstance(MobEffects.NIGHT_VISION, 319, 1,
                             false,false, true))
                     .put(ModArmorMaterials.ALEXANDRITE, new MobEffectInstance(MobEffects.INVISIBILITY, 319, 1,
-                                    false,false, true)).build();
+                                    false,false, true))
+                    .build();
 
     public ModArmorItem(ArmorMaterial pMaterial, Type pType, Properties pProperties) {
         super(pMaterial, pType, pProperties);
@@ -39,14 +40,14 @@ public class ModArmorItem extends ArmorItem {
             MobEffectInstance mapStatusEffect = entry.getValue();
 
             if(hasCorrectArmorOn(mapArmorMaterial, player)) {
-                addStatusEffectForMaterial(player, mapArmorMaterial, mapStatusEffect);
+                addEffectToPlayer(player, mapArmorMaterial, mapStatusEffect);
             }
         }
     }
 
-    private void addStatusEffectForMaterial(Player player, ArmorMaterial mapArmorMaterial,
-                                            MobEffectInstance mapStatusEffect) {
-        // boolean hasPlayerEffect = player.hasEffect(mapStatusEffect.getEffect());
+    private void addEffectToPlayer(Player player, ArmorMaterial mapArmorMaterial,
+                                   MobEffectInstance mapStatusEffect) {
+        // boolean hasPlayerEffect = player.hasEffect(mapStatusEffect.getEffect()); //not good for night vision
 
 
         if(hasCorrectArmorOn(mapArmorMaterial, player) ) { //&& !hasPlayerEffect) {
