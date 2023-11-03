@@ -1,9 +1,10 @@
-// 1.20.1	2023-11-03T15:21:45.963892	Block States: wobble
+// 1.20.1	2023-11-03T18:25:20.415924	Block States: wobble
 a4cf01ff6148d2ee75f501399ea4307c7c3df722 assets/wobble/blockstates/alexandrite_block.json
 77868efe3de072ded606102ac06498332c9602af assets/wobble/blockstates/alexandrite_button.json
 1a1b161d2c1d3e788ce41a7e2f8861b0aba8db5c assets/wobble/blockstates/alexandrite_door.json
 0b9c96431414e066c6cd6e848da314afd891e58d assets/wobble/blockstates/alexandrite_fence.json
 0fb694467adfaab7ffca273a8f9d8c3bff5dd45a assets/wobble/blockstates/alexandrite_fence_gate.json
+dce457a791f1c788b3090007ecae0deaafba4b9b assets/wobble/blockstates/alexandrite_lamp.json
 305ea1e2affe0da1954d4f2c821738758126a115 assets/wobble/blockstates/alexandrite_ore.json
 4133ad1b637c46f3c3488113f88aeb541fe6e245 assets/wobble/blockstates/alexandrite_pressure_plate.json
 31733b2a4ef55dc2ff2ff42aa50239f1fcc4bf76 assets/wobble/blockstates/alexandrite_slab.json
@@ -52,6 +53,8 @@ c4d36fb0ccd5d6aee4b847a3a249c00a2c41d2a5 assets/wobble/models/block/alexandrite_
 87614e6263a23c83cd14973f3854c53a0b8f1033 assets/wobble/models/block/alexandrite_fence_gate_wall_open.json
 c2c7480ed098f001d53257acaf65aacd4304a4da assets/wobble/models/block/alexandrite_fence_post.json
 9ae19bee817a737f405c4e1c038a29e35e4fbe81 assets/wobble/models/block/alexandrite_fence_side.json
+9df6c442d3276d87228609b58cb20b559eb0612f assets/wobble/models/block/alexandrite_lamp_off.json
+b63a649dfb8db8c5767c32f7b0639124f910e421 assets/wobble/models/block/alexandrite_lamp_on.json
 715e2b407552d90195859c5ac0e05102808c8e7b assets/wobble/models/block/alexandrite_ore.json
 ff2cf8335d494e25f2349d461a0ce6662d9bd5c8 assets/wobble/models/block/alexandrite_pressure_plate.json
 846f4536d65d946de049de5204b52ea2a255c4d6 assets/wobble/models/block/alexandrite_pressure_plate_down.json
@@ -124,6 +127,7 @@ f87864e86d78e13d33c32cb4bf26c3072ca22289 assets/wobble/models/block/strawberry_s
 3fb9eb78ae2e683260b06d6e8a27b6828bfca6b7 assets/wobble/models/block/strawberry_stage4.json
 37c0787b7679ee44ab16b7846ffb1b77bc399f3f assets/wobble/models/block/strawberry_stage5.json
 12af4f9bff53fc5d87ff80748341aa9f7af74f8b assets/wobble/models/item/alexandrite_block.json
+03a0ab66c498d2838736110d6482968e7eb0962a assets/wobble/models/item/alexandrite_lamp.json
 6acad564a737aa2019fcdc27e4fcb84c881f872f assets/wobble/models/item/alexandrite_ore.json
 c3e95d650b83d984c922153af4767a0c6fc05b0b assets/wobble/models/item/catmint.json
 be7de91ca8cecd1ac17271130f62fe86081b7b9f assets/wobble/models/item/deepslate_alexandrite_ore.json

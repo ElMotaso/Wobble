@@ -1,9 +1,10 @@
-// 1.20.1	2023-11-03T15:21:45.955675	Loot Tables
+// 1.20.1	2023-11-03T18:25:20.410956	Loot Tables
 7c88011ca74bca8f3c0d749f3d43fdf43fb317a8 data/wobble/loot_tables/blocks/alexandrite_block.json
 d5b5dd0ed6491d110a43181cf22b37e1bd1623f8 data/wobble/loot_tables/blocks/alexandrite_button.json
 3d5e9c625657b632fcb361215723e7a5260336bb data/wobble/loot_tables/blocks/alexandrite_door.json
 acdafbf112b981ed2b460315a155c0a66848a86b data/wobble/loot_tables/blocks/alexandrite_fence.json
 162353bfd7fe71d32ae15cd38268fcd1a6e57906 data/wobble/loot_tables/blocks/alexandrite_fence_gate.json
+02595f6ee4f8df44fef4a41eb825bdcb8774e134 data/wobble/loot_tables/blocks/alexandrite_lamp.json
 bc8b0131c65d8ab3b687454d81ee76ebd005bc05 data/wobble/loot_tables/blocks/alexandrite_ore.json
 5d7a12b4635c3db690e241e905b15d8f3879883c data/wobble/loot_tables/blocks/alexandrite_pressure_plate.json
 8dca5546a78971cf2e6b7f2b163cb2624573a1a9 data/wobble/loot_tables/blocks/alexandrite_slab.json

@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.*;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
+import net.motaso.wobble.block.custom.AlexandriteLampBlock;
 import net.motaso.wobble.block.custom.CornCropBlock;
 import net.motaso.wobble.block.custom.StrawberryCropBlock;
 
@@ -81,6 +82,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         simpleBlockWithItem(ModBlocks.GEM_POLISHING_STATION.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/gem_polishing_station")));
+
+        customLamp();
     }
 
     public void makeStrawberryCrop(CropBlock block, String modelName, String textureName) {
@@ -109,6 +112,20 @@ public class ModBlockStateProvider extends BlockStateProvider {
                 new ResourceLocation(Wobble.MODID, "block/" + textureName + state.getValue(((CornCropBlock) block).getAgeProperty()))).renderType("cutout"));
 
         return models;
+    }
+
+    private void customLamp() {
+        getVariantBuilder(ModBlocks.ALEXANDRITE_LAMP.get()).forAllStates(state -> {
+            if(state.getValue(AlexandriteLampBlock.CLICKED)) {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("alexandrite_lamp_on",
+                        new ResourceLocation(Wobble.MODID, "block/" + "alexandrite_lamp_on")))};
+            } else {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("alexandrite_lamp_off",
+                        new ResourceLocation(Wobble.MODID, "block/" +"alexandrite_lamp_off")))};
+            }
+        });
+        simpleBlockItem(ModBlocks.ALEXANDRITE_LAMP.get(), models().cubeAll("alexandrite_lamp_on",
+                new ResourceLocation(Wobble.MODID, "block/" +"alexandrite_lamp_on")));
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

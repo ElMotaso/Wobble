@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "wobble:block/alexandrite_lamp_off"
+  }
+}
