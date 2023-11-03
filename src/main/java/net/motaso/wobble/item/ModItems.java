@@ -47,8 +47,6 @@ public class ModItems {
             () -> new CherryStoneItem(Blocks.CHERRY_SAPLING, new Item.Properties(), 40));
     public static final RegistryObject<Item> KOHLRABI = ITEMS.register("kohlrabi",
             () -> new Item(new Item.Properties().food(ModFoodProperties.KOHLRABI)));
-    public static final RegistryObject<Item> SAPPHIRE_STAFF = ITEMS.register("sapphire_staff",
-            () -> new Item(new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
                 () -> new FuelItem(new Item.Properties(), 400));
@@ -67,6 +65,8 @@ public class ModItems {
                 () -> new ShovelItem(ModToolTiers.SAPPHIRE, 0, 0, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe",
                 () -> new HoeItem(ModToolTiers.SAPPHIRE, 0, 0, new Item.Properties()));
+    public static final RegistryObject<Item> SAPPHIRE_STAFF = ITEMS.register("sapphire_staff",
+            () -> new LevitationStaffItem(new Item.Properties()));
 
     public static final RegistryObject<Item> ALEXANDRITE_SWORD = ITEMS.register("alexandrite_sword",
                 () -> new SlowingSwortItem(ModToolTiers.ALEXANDRITE, 4, 2, new Item.Properties()));
