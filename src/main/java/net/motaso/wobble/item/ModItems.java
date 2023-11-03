@@ -69,7 +69,7 @@ public class ModItems {
                 () -> new HoeItem(ModToolTiers.SAPPHIRE, 0, 0, new Item.Properties()));
 
     public static final RegistryObject<Item> ALEXANDRITE_SWORD = ITEMS.register("alexandrite_sword",
-                () -> new SwordItem(ModToolTiers.ALEXANDRITE, 4, 2, new Item.Properties()));
+                () -> new SlowingSwortItem(ModToolTiers.ALEXANDRITE, 4, 2, new Item.Properties()));
     public static final RegistryObject<Item> ALEXANDRITE_PICKAXE = ITEMS.register("alexandrite_pickaxe",
                 () -> new PickaxeItem(ModToolTiers.ALEXANDRITE, 1, 1, new Item.Properties()));
     public static final RegistryObject<Item> ALEXANDRITE_AXE = ITEMS.register("alexandrite_axe",
