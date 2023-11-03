@@ -60,6 +60,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.BAR_BRAWL_MUSIC_DISC);
         simpleItem(ModItems.NEBO_I_SIMA_MUSIC_DISC);
 
+        simpleItem(ModItems.ALEXANDRITE_HORSE_ARMOR);
+
         withExistingParent(ModItems.RHINO_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
 
         simpleBlockItemBlockTexture(ModBlocks.CATMINT);

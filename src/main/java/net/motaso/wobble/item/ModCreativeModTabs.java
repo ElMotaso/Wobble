@@ -98,6 +98,8 @@ public class ModCreativeModTabs {
                                 pOutput.accept(ModItems.ALEXANDRITE_LEGGINGS.get());
                                 pOutput.accept(ModItems.ALEXANDRITE_BOOTS.get());
 
+                                pOutput.accept(ModItems.ALEXANDRITE_HORSE_ARMOR.get());
+
 
                                 pOutput.accept(ModBlocks.ALEXANDRITE_BLOCK.get());
                                 pOutput.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
