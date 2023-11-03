@@ -78,6 +78,8 @@ public class ModItems {
                 () -> new ShovelItem(ModToolTiers.ALEXANDRITE, 0, 0, new Item.Properties()));
     public static final RegistryObject<Item> ALEXANDRITE_HOE = ITEMS.register("alexandrite_hoe",
                 () -> new HoeItem(ModToolTiers.ALEXANDRITE, 0, 0, new Item.Properties()));
+    public static final RegistryObject<Item> ALEXANDRITE_PAXEL = ITEMS.register("alexandrite_paxel",
+                () -> new PaxelItem(ModToolTiers.ALEXANDRITE, 0, 0, new Item.Properties()));
 
     public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
                 () -> new ModArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new Item.Properties()));

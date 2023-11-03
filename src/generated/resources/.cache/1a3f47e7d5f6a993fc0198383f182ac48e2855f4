@@ -1,4 +1,4 @@
-// 1.20.1	2023-11-03T15:46:59.659335	Item Models: wobble
+// 1.20.1	2023-11-03T16:05:27.456365	Item Models: wobble
 fd748ace441a203dfa1a31aa01cd8508ed8a8ccc assets/wobble/models/item/alexandrite.json
 8fcccdf1b3c92944315acdff5bbdf95513acc6c8 assets/wobble/models/item/alexandrite_axe.json
 220f7c012ca7d4d78c3e55b83ecaca0e029036f7 assets/wobble/models/item/alexandrite_boots.json
@@ -50,6 +50,7 @@ bcec6955415a1ebf3d8c9ad3f86d731fdb92c19b assets/wobble/models/item/alexandrite_l
 355d5b5ca431b8fcdf5640c48a5c72803421d978 assets/wobble/models/item/alexandrite_leggings_netherite_trim.json
 de79a97bf24207668f8babf4d82e500caa12cec3 assets/wobble/models/item/alexandrite_leggings_quartz_trim.json
 1582e00e1109c84f258ecc03b3a4209773af73ea assets/wobble/models/item/alexandrite_leggings_redstone_trim.json
+8cb51299136a091c77547c9a0d79bd1a1fb021a2 assets/wobble/models/item/alexandrite_paxel.json
 1dcea016a8f9007b0122770d38ad8be75c1a76e3 assets/wobble/models/item/alexandrite_pickaxe.json
 a170b700500eaf53dfe0bc66604ec28b33314573 assets/wobble/models/item/alexandrite_pressure_plate.json
 4452399076b65d6722cd331599446e2a930e4c87 assets/wobble/models/item/alexandrite_shovel.json

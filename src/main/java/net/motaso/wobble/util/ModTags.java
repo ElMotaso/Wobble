@@ -13,6 +13,7 @@ public class ModTags {
         public static final TagKey<Block> METAL_DETECTOR_VALUABLES = tag("metal_detector_valuables");
         public static final TagKey<Block> NEEDS_SAPPHIRE_TOOL = tag("needs_sapphire_tool");
         public static final TagKey<Block> NEEDS_ALEXANDRITE_TOOL = tag("needs_alexandrite_tool");
+        public static final TagKey<Block> PAXEL_MINABLE = tag("mineable/paxel");
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(Wobble.MODID, name));
         }
