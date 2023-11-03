@@ -1,6 +1,15 @@
-// 1.20.1	2023-11-01T17:13:48.750465	Loot Tables
+// 1.20.1	2023-11-03T15:21:45.955675	Loot Tables
 7c88011ca74bca8f3c0d749f3d43fdf43fb317a8 data/wobble/loot_tables/blocks/alexandrite_block.json
+d5b5dd0ed6491d110a43181cf22b37e1bd1623f8 data/wobble/loot_tables/blocks/alexandrite_button.json
+3d5e9c625657b632fcb361215723e7a5260336bb data/wobble/loot_tables/blocks/alexandrite_door.json
+acdafbf112b981ed2b460315a155c0a66848a86b data/wobble/loot_tables/blocks/alexandrite_fence.json
+162353bfd7fe71d32ae15cd38268fcd1a6e57906 data/wobble/loot_tables/blocks/alexandrite_fence_gate.json
 bc8b0131c65d8ab3b687454d81ee76ebd005bc05 data/wobble/loot_tables/blocks/alexandrite_ore.json
+5d7a12b4635c3db690e241e905b15d8f3879883c data/wobble/loot_tables/blocks/alexandrite_pressure_plate.json
+8dca5546a78971cf2e6b7f2b163cb2624573a1a9 data/wobble/loot_tables/blocks/alexandrite_slab.json
+0f28867dd8037b83e7dddca98d9284f571c8ec95 data/wobble/loot_tables/blocks/alexandrite_stairs.json
+66ea9ae9daeed90ee74d3ba0a4a89d068d84009c data/wobble/loot_tables/blocks/alexandrite_trapdoor.json
+3dc91d098395b17273bb532df8bee896d800ab04 data/wobble/loot_tables/blocks/alexandrite_wall.json
 d0ee1cafe51f2685e757878b626dfadeffdbbbbb data/wobble/loot_tables/blocks/catmint.json
 2d62e207ec7f722e4b8ad8c39a7e4e43c2ace6fc data/wobble/loot_tables/blocks/corn_crop.json
 6b22fc691ee3b2cb5498fc5917aed221b8af3213 data/wobble/loot_tables/blocks/deepslate_alexandrite_ore.json

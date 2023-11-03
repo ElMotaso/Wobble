@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "wobble:block/alexandrite_block",
+    "side": "wobble:block/alexandrite_block",
+    "top": "wobble:block/alexandrite_block"
+  }
+}

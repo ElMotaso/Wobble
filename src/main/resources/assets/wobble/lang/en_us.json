@@ -25,10 +25,21 @@
   "item.wobble.sapphire_shovel": "Sapphire Shovel",
   "item.wobble.sapphire_hoe": "Sapphire Hoe",
 
+"item.wobble.alexandrite_sword": "Alexandrite Sword",
+  "item.wobble.alexandrite_pickaxe": "Alexandrite Pickaxe",
+  "item.wobble.alexandrite_axe": "Alexandrite Axe",
+  "item.wobble.alexandrite_shovel": "Alexandrite Shovel",
+  "item.wobble.alexandrite_hoe": "Alexandrite Hoe",
+
   "item.wobble.sapphire_helmet": "Sapphire Helmet",
   "item.wobble.sapphire_chestplate": "Sapphire Chestplate",
   "item.wobble.sapphire_leggings": "Sapphire Leggings",
   "item.wobble.sapphire_boots": "Sapphire Boots",
+
+"item.wobble.alexandrite_helmet": "Alexandrite Helmet",
+  "item.wobble.alexandrite_chestplate": "Alexandrite Chestplate",
+  "item.wobble.alexandrite_leggings": "Alexandrite Leggings",
+  "item.wobble.alexandrite_boots": "Alexandrite Boots",
 
   "item.wobble.bar_brawl_music_disc": "Bar Brawl Music Disc",
   "item.wobble.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
@@ -53,6 +64,16 @@
   "block.wobble.sapphire_wall": "Sapphire Wall",
   "block.wobble.sapphire_door": "Sapphire Door",
   "block.wobble.sapphire_trapdoor": "Sapphire Trapdoor",
+
+  "block.wobble.alexandrite_stairs": "Alexandrite Stairs",
+  "block.wobble.alexandrite_slab": "Alexandrite Slab",
+  "block.wobble.alexandrite_button": "Alexandrite Button",
+  "block.wobble.alexandrite_pressure_plate": "Alexandrite Pressure Plate",
+  "block.wobble.alexandrite_fence": "Alexandrite Fence",
+  "block.wobble.alexandrite_fence_gate": "Alexandrite Fence Gate",
+  "block.wobble.alexandrite_wall": "Alexandrite Wall",
+  "block.wobble.alexandrite_door": "Alexandrite Door",
+  "block.wobble.alexandrite_trapdoor": "Alexandrite Trapdoor",
 
   "block.wobble.sapphire_ore": "Sapphire Ore",
   "block.wobble.deepslate_sapphire_ore": "Deepslate Sapphire Ore",

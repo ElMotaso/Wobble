@@ -23,7 +23,13 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .add(ModItems.SAPPHIRE_HELMET.get(),
                         ModItems.SAPPHIRE_CHESTPLATE.get(),
                         ModItems.SAPPHIRE_LEGGINGS.get(),
-                        ModItems.SAPPHIRE_BOOTS.get());
+                        ModItems.SAPPHIRE_BOOTS.get(),
+
+                        ModItems.ALEXANDRITE_HELMET.get(),
+                        ModItems.ALEXANDRITE_CHESTPLATE.get(),
+                        ModItems.ALEXANDRITE_LEGGINGS.get(),
+                        ModItems.ALEXANDRITE_BOOTS.get()
+                        );
 
         this.tag(ItemTags.MUSIC_DISCS)
             .add(ModItems.BAR_BRAWL_MUSIC_DISC.get(),

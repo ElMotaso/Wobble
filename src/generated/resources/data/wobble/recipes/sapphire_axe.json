@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "wobble:sapphire"
+    },
+    "W": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "SS ",
+    "SW ",
+    " W "
+  ],
+  "result": {
+    "item": "wobble:sapphire_axe"
+  },
+  "show_notification": true
+}

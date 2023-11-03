@@ -77,16 +77,43 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         trapdoorItem(ModBlocks.SAPPHIRE_TRAPDOOR);
 
+
+        simpleBlockItem(ModBlocks.ALEXANDRITE_DOOR);
+
+        fenceItem(ModBlocks.ALEXANDRITE_FENCE, ModBlocks.ALEXANDRITE_BLOCK);
+        buttonItem(ModBlocks.ALEXANDRITE_BUTTON, ModBlocks.ALEXANDRITE_BLOCK);
+        wallItem(ModBlocks.ALEXANDRITE_WALL, ModBlocks.ALEXANDRITE_BLOCK);
+
+        evenSimplerBlockItem(ModBlocks.ALEXANDRITE_STAIRS);
+        evenSimplerBlockItem(ModBlocks.ALEXANDRITE_SLAB);
+        evenSimplerBlockItem(ModBlocks.ALEXANDRITE_PRESSURE_PLATE);
+        evenSimplerBlockItem(ModBlocks.ALEXANDRITE_FENCE_GATE);
+
+        trapdoorItem(ModBlocks.ALEXANDRITE_TRAPDOOR);
+
+
         handheldItem(ModItems.SAPPHIRE_SWORD);
         handheldItem(ModItems.SAPPHIRE_PICKAXE);
         handheldItem(ModItems.SAPPHIRE_AXE);
         handheldItem(ModItems.SAPPHIRE_SHOVEL);
         handheldItem(ModItems.SAPPHIRE_HOE);
 
+        handheldItem(ModItems.ALEXANDRITE_SWORD);
+        handheldItem(ModItems.ALEXANDRITE_PICKAXE);
+        handheldItem(ModItems.ALEXANDRITE_AXE);
+        handheldItem(ModItems.ALEXANDRITE_SHOVEL);
+        handheldItem(ModItems.ALEXANDRITE_HOE);
+
+
         trimmedArmorItem(ModItems.SAPPHIRE_HELMET);
         trimmedArmorItem(ModItems.SAPPHIRE_CHESTPLATE);
         trimmedArmorItem(ModItems.SAPPHIRE_LEGGINGS);
         trimmedArmorItem(ModItems.SAPPHIRE_BOOTS);
+
+        trimmedArmorItem(ModItems.ALEXANDRITE_HELMET);
+        trimmedArmorItem(ModItems.ALEXANDRITE_CHESTPLATE);
+        trimmedArmorItem(ModItems.ALEXANDRITE_LEGGINGS);
+        trimmedArmorItem(ModItems.ALEXANDRITE_BOOTS);
     }
 
     // Shoutout to El_Redstoniano for making this

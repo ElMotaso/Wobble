@@ -57,6 +57,20 @@ public class ModBlockStateProvider extends BlockStateProvider {
         doorBlockWithRenderType(((DoorBlock) ModBlocks.SAPPHIRE_DOOR.get()), modLoc("block/sapphire_door_bottom"), modLoc("block/sapphire_door_top"), "cutout");
         trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.SAPPHIRE_TRAPDOOR.get()), modLoc("block/sapphire_trapdoor"), true, "cutout");
 
+        stairsBlock(((StairBlock) ModBlocks.ALEXANDRITE_STAIRS.get()), blockTexture(ModBlocks.ALEXANDRITE_BLOCK.get()));
+        slabBlock(((SlabBlock) ModBlocks.ALEXANDRITE_SLAB.get()), blockTexture(ModBlocks.ALEXANDRITE_BLOCK.get()), blockTexture(ModBlocks.ALEXANDRITE_BLOCK.get()));
+
+        buttonBlock(((ButtonBlock) ModBlocks.ALEXANDRITE_BUTTON.get()), blockTexture(ModBlocks.ALEXANDRITE_BLOCK.get()));
+        pressurePlateBlock(((PressurePlateBlock) ModBlocks.ALEXANDRITE_PRESSURE_PLATE.get()), blockTexture(ModBlocks.ALEXANDRITE_BLOCK.get()));
+
+        fenceBlock(((FenceBlock) ModBlocks.ALEXANDRITE_FENCE.get()), blockTexture(ModBlocks.ALEXANDRITE_BLOCK.get()));
+        fenceGateBlock(((FenceGateBlock) ModBlocks.ALEXANDRITE_FENCE_GATE.get()), blockTexture(ModBlocks.ALEXANDRITE_BLOCK.get()));
+        wallBlock(((WallBlock) ModBlocks.ALEXANDRITE_WALL.get()), blockTexture(ModBlocks.ALEXANDRITE_BLOCK.get()));
+
+        doorBlockWithRenderType(((DoorBlock) ModBlocks.ALEXANDRITE_DOOR.get()), modLoc("block/alexandrite_door_bottom"), modLoc("block/alexandrite_door_top"), "cutout");
+        trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.ALEXANDRITE_TRAPDOOR.get()), modLoc("block/alexandrite_trapdoor"), true, "cutout");
+
+
         makeStrawberryCrop((CropBlock) ModBlocks.STRAWBERRY_CROP.get(), "strawberry_stage", "strawberry_stage");
         makeCornCrop((CropBlock) ModBlocks.CORN_CROP.get(), "corn_stage_", "corn_stage_");
 

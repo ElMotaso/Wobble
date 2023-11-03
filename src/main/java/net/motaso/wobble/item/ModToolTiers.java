@@ -16,4 +16,8 @@ public class ModToolTiers {
             new ForgeTier(5, 100, 5f, 4f, 25,
                     ModTags.Blocks.NEEDS_SAPPHIRE_TOOL, () -> Ingredient.of(ModItems.SAPPHIRE.get())),
             new ResourceLocation(Wobble.MODID, "sapphire"), List.of(Tiers.NETHERITE), List.of( ));
+            public static final Tier ALEXANDRITE = TierSortingRegistry.registerTier(
+                        new ForgeTier(5, 100, 5f, 4f, 25,
+                                ModTags.Blocks.NEEDS_ALEXANDRITE_TOOL, () -> Ingredient.of(ModItems.ALEXANDRITE.get())),
+                        new ResourceLocation(Wobble.MODID, "alexadnrite"), List.of(Tiers.NETHERITE), List.of( ));
 }
