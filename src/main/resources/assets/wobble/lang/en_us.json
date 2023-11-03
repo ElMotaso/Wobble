@@ -99,7 +99,9 @@
 
   "sounds.wobble.metal_detector_found_ore": "Metal Detector Jingle",
 
-  "tooltip.wobble.metal_detector.tooltip": "Finds valuables underground.",
+  "tooltip.wobble.metal_detector": "Press §eSHIFT§r for more Information!",
+  "tooltip.wobble.metal_detector.shift": "Finds valuables underground.",
+  "tooltip.wobble.sound_block": "Makes Sounds when right-clicked or walked on.",
 
 
   "creativetab.tutorial_tab": "Tutorial Tab",

@@ -1,5 +1,6 @@
 package net.motaso.wobble.item.custom;
 
+import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -58,7 +59,11 @@ public class MetalDetectorItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pToolTipComponents, TooltipFlag pIsAdvanced) {
-        pToolTipComponents.add(Component.translatable("tooltip.wobble.metal_detector.tooltip"));
+        if (Screen.hasShiftDown()) {
+            pToolTipComponents.add(Component.translatable("tooltip.wobble.metal_detector.shift"));
+        } else {
+            pToolTipComponents.add(Component.translatable("tooltip.wobble.metal_detector"));
+        }
         super.appendHoverText(pStack, pLevel, pToolTipComponents, pIsAdvanced);
     }
 
