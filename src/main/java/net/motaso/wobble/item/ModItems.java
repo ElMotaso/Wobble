@@ -105,6 +105,9 @@ public class ModItems {
     public static final RegistryObject<Item> ALEXANDRITE_HORSE_ARMOR = ITEMS.register("alexandrite_horse_armor",
                 () -> new HorseArmorItem(12, new ResourceLocation(Wobble.MODID, "textures/entity/horse/armor/horse_armor_alexandrite.png"), new Item.Properties()));
 
+    public static final RegistryObject<Item> DATA_TABLET = ITEMS.register("data_tablet",
+                () -> new DataTabletItem(new Item.Properties().stacksTo(1)));
+
     public static final RegistryObject<Item> BAR_BRAWL_MUSIC_DISC = ITEMS.register("bar_brawl_music_disc",
                     () -> new RecordItem(6, ModSounds.BAR_BRAWL, new Item.Properties().stacksTo(1), 2440));
     public static final RegistryObject<Item> NEBO_I_SIMA_MUSIC_DISC = ITEMS.register("nebo_i_sima_music_disc",
