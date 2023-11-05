@@ -5,6 +5,7 @@ import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.ComposterBlock;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -73,6 +74,13 @@ public class Wobble
     private void commonSetup(final FMLCommonSetupEvent event) {
         event.enqueueWork(() ->{
             ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.CATMINT.getId(), ModBlocks.POTTED_CATMINT);
+            ComposterBlock.COMPOSTABLES.put(ModItems.CHERRY.get(), 0.15f);
+            ComposterBlock.COMPOSTABLES.put(ModItems.STRAWBERRY.get(), 0.15f);
+            ComposterBlock.COMPOSTABLES.put(ModItems.STRAWBERRY_SEEDS.get(), 0.1f);
+            ComposterBlock.COMPOSTABLES.put(ModItems.KOHLRABI.get(), 0.35f);
+            ComposterBlock.COMPOSTABLES.put(ModItems.KOHLRABI_SEEDS.get(), 0.2f);
+            ComposterBlock.COMPOSTABLES.put(ModItems.CORN.get(), 0.4f);
+            ComposterBlock.COMPOSTABLES.put(ModItems.CORN_SEEDS.get(), 0.35f);
         });
     }
 
