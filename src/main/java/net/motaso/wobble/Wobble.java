@@ -24,6 +24,7 @@ import net.motaso.wobble.enchantment.ModEnchantments;
 import net.motaso.wobble.entity.ModEntities;
 import net.motaso.wobble.entity.client.RhinoRenderer;
 import net.motaso.wobble.item.ModCreativeModTabs;
+import net.motaso.wobble.item.ModItemProperties;
 import net.motaso.wobble.item.ModItems;
 import net.motaso.wobble.loot.ModLootModifiers;
 import net.motaso.wobble.recipe.ModRecipes;
@@ -100,6 +101,10 @@ public class Wobble
             EntityRenderers.register(ModEntities.RHINO.get(), RhinoRenderer::new);
 
             MenuScreens.register(ModMenuTypes.GEM_POLISHING_MENU.get(), GemPolishingStationScreen::new);
+
+            event.enqueueWork(() -> {
+                ModItemProperties.addCustomItemProperties();
+            });
         }
     }
 }

@@ -1,4 +1,4 @@
-// 1.20.1	2023-11-05T11:28:33.872314	Item Models: wobble
+// 1.20.1	2023-11-05T11:51:22.502138	Item Models: wobble
 fd748ace441a203dfa1a31aa01cd8508ed8a8ccc assets/wobble/models/item/alexandrite.json
 8fcccdf1b3c92944315acdff5bbdf95513acc6c8 assets/wobble/models/item/alexandrite_axe.json
 220f7c012ca7d4d78c3e55b83ecaca0e029036f7 assets/wobble/models/item/alexandrite_boots.json
@@ -67,7 +67,6 @@ aabed483f667b8cb2f8c8d9bcdb0a92c54998a09 assets/wobble/models/item/bar_brawl_mus
 5728db895de54ae5ce88e32733cf89b183c41f29 assets/wobble/models/item/cherry_stone.json
 d176779137e88fdc2eabfc7762e7ef9ffac02d3f assets/wobble/models/item/corn.json
 46446e79272287b9b169a36228aff75d133679a0 assets/wobble/models/item/corn_seeds.json
-24d7b611baf49036286e8843af06f31ac52833a9 assets/wobble/models/item/data_tablet.json
 1ce21f316be472637876c2236dc591dd0527cf8f assets/wobble/models/item/kohlrabi.json
 d2ae72be0910449c90e4023a9245ad6585550cf7 assets/wobble/models/item/metal_detector.json
 433accb6145a6176916d7b1789e3a55219861776 assets/wobble/models/item/nebo_i_sima_music_disc.json

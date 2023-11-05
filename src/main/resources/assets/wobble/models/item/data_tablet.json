@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "wobble:item/data_tablet_off"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "wobble:on": 1
+      },
+      "model": "wobble:item/data_tablet_on"
+    }
+  ]
+}

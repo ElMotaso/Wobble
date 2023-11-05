@@ -61,7 +61,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.NEBO_I_SIMA_MUSIC_DISC);
 
         simpleItem(ModItems.ALEXANDRITE_HORSE_ARMOR);
-        simpleItem(ModItems.DATA_TABLET);
+        // simpleItem(ModItems.DATA_TABLET); // not possible bc custom item properties (texture change)
 
         withExistingParent(ModItems.RHINO_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
 
