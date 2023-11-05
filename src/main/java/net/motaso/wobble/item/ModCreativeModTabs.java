@@ -82,6 +82,7 @@ public class ModCreativeModTabs {
                                 pOutput.accept(ModItems.RAW_ALEXANDRITE.get());
 
                                 pOutput.accept(ModItems.KOHLRABI.get());
+                                pOutput.accept(ModItems.KOHLRABI_SEEDS.get());
 
                                 pOutput.accept(ModItems.PEAT_BRICK.get());
 

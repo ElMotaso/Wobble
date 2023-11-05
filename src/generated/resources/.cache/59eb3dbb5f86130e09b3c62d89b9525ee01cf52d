@@ -1,4 +1,4 @@
-// 1.20.1	2023-11-03T18:25:20.410956	Loot Tables
+// 1.20.1	2023-11-05T12:29:16.991001	Loot Tables
 7c88011ca74bca8f3c0d749f3d43fdf43fb317a8 data/wobble/loot_tables/blocks/alexandrite_block.json
 d5b5dd0ed6491d110a43181cf22b37e1bd1623f8 data/wobble/loot_tables/blocks/alexandrite_button.json
 3d5e9c625657b632fcb361215723e7a5260336bb data/wobble/loot_tables/blocks/alexandrite_door.json
@@ -18,6 +18,7 @@ d0ee1cafe51f2685e757878b626dfadeffdbbbbb data/wobble/loot_tables/blocks/catmint.
 7c88ca0377fbb4258892740e8fe5a7aaad8d229f data/wobble/loot_tables/blocks/end_stone_alexandrite_ore.json
 c48451fdd5cc8e6f3d8ff289138f813d7a950ef4 data/wobble/loot_tables/blocks/end_stone_sapphire_ore.json
 ce91d8c759ab0d3202030877e220df9e4403b1b5 data/wobble/loot_tables/blocks/gem_polishing_station.json
+386e09272fbda02cd95e143dfd0779c649c49ce4 data/wobble/loot_tables/blocks/kohlrabi_crop.json
 ee387d0e0c6a8ecdb192d55cb2aa98638ae7f605 data/wobble/loot_tables/blocks/nether_alexandrite_ore.json
 fac75a5682bc5ab251464896657057663e21c650 data/wobble/loot_tables/blocks/nether_sapphire_ore.json
 0ecfb97af49ab972b2b52e4870205c94065f4041 data/wobble/loot_tables/blocks/potted_catmint.json

@@ -49,6 +49,9 @@ public class ModItems {
     public static final RegistryObject<Item> KOHLRABI = ITEMS.register("kohlrabi",
             () -> new Item(new Item.Properties().food(ModFoodProperties.KOHLRABI)));
 
+    public static final RegistryObject<Item> KOHLRABI_SEEDS = ITEMS.register("kohlrabi_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.KOHLRABI_CROP.get(), new Item.Properties()));
+
     public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
                 () -> new FuelItem(new Item.Properties(), 400));
 
