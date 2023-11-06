@@ -3,6 +3,8 @@ package net.motaso.wobble.event;
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.entity.animal.Sheep;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.entity.player.Player;
@@ -13,6 +15,7 @@ import net.minecraft.world.item.enchantment.EnchantmentInstance;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.item.trading.MerchantOffer;
 import net.minecraftforge.event.RegisterCommandsEvent;
+import net.minecraftforge.event.entity.living.LivingDamageEvent;
 import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.event.level.BlockEvent;
 import net.minecraftforge.event.village.VillagerTradesEvent;
@@ -134,5 +137,20 @@ public class ModEvents {
     public static void onPlayerCloned(PlayerEvent.Clone event) {
         event.getEntity().getPersistentData().putIntArray("wobble.homepos",
                 event.getOriginal().getPersistentData().getIntArray("wobble.homepos"));
+    }
+
+    @SubscribeEvent
+    public static void livingSheepDamage(LivingDamageEvent event) {
+        if(event.getEntity() instanceof Sheep) {
+            if(event.getSource().getDirectEntity() instanceof Player player){
+                if(player.getItemInHand(InteractionHand.MAIN_HAND).getItem() == ModItems.ALEXANDRITE_AXE.get()) {
+                    Wobble.LOGGER.info("Sheep was hit with Alexandrite Axe by " + player.getName().getString());
+                } else if (player.getItemInHand(InteractionHand.MAIN_HAND).getItem() == Items.DIAMOND) {
+                    Wobble.LOGGER.info("Sheep was hit with a diamond by " + player.getName().getString());
+                } else {
+                    Wobble.LOGGER.info("Sheep was hit by " + player.getName().getString());
+                }
+            }
+        }
     }
 }
