@@ -1,6 +1,8 @@
 package net.motaso.wobble.block;
 
 import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.material.MapColor;
 import net.motaso.wobble.Wobble;
 import net.motaso.wobble.block.custom.*;

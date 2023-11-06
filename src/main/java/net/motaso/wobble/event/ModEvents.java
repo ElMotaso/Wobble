@@ -12,13 +12,18 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.enchantment.EnchantmentInstance;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.item.trading.MerchantOffer;
+import net.minecraftforge.event.RegisterCommandsEvent;
+import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.event.level.BlockEvent;
 import net.minecraftforge.event.village.VillagerTradesEvent;
 import net.minecraftforge.event.village.WandererTradesEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.server.command.ConfigCommand;
 import net.motaso.wobble.Wobble;
 import net.motaso.wobble.block.ModBlocks;
+import net.motaso.wobble.command.ReturnHomeCommand;
+import net.motaso.wobble.command.SetHomeCommand;
 import net.motaso.wobble.item.ModItems;
 import net.motaso.wobble.item.custom.HammerItem;
 import net.motaso.wobble.villager.ModVillagers;
@@ -115,5 +120,19 @@ public class ModEvents {
                 new ItemStack(Items.EMERALD, 24),
                         new ItemStack(ModItems.METAL_DETECTOR.get(), 1),
                 2, 12,15f));
+    }
+
+    @SubscribeEvent
+    public static void onCommandRegister(RegisterCommandsEvent event) {
+        new SetHomeCommand(event.getDispatcher());
+        new ReturnHomeCommand(event.getDispatcher());
+
+        ConfigCommand.register(event.getDispatcher());
+    }
+
+    @SubscribeEvent
+    public static void onPlayerCloned(PlayerEvent.Clone event) {
+        event.getEntity().getPersistentData().putIntArray("wobble.homepos",
+                event.getOriginal().getPersistentData().getIntArray("wobble.homepos"));
     }
 }
