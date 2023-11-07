@@ -1,4 +1,4 @@
-// 1.20.1	2023-11-05T12:29:16.991001	Loot Tables
+// 1.20.1	2023-11-07T09:26:19.113536	Loot Tables
 7c88011ca74bca8f3c0d749f3d43fdf43fb317a8 data/wobble/loot_tables/blocks/alexandrite_block.json
 d5b5dd0ed6491d110a43181cf22b37e1bd1623f8 data/wobble/loot_tables/blocks/alexandrite_button.json
 3d5e9c625657b632fcb361215723e7a5260336bb data/wobble/loot_tables/blocks/alexandrite_door.json
@@ -22,6 +22,7 @@ ce91d8c759ab0d3202030877e220df9e4403b1b5 data/wobble/loot_tables/blocks/gem_poli
 ee387d0e0c6a8ecdb192d55cb2aa98638ae7f605 data/wobble/loot_tables/blocks/nether_alexandrite_ore.json
 fac75a5682bc5ab251464896657057663e21c650 data/wobble/loot_tables/blocks/nether_sapphire_ore.json
 0ecfb97af49ab972b2b52e4870205c94065f4041 data/wobble/loot_tables/blocks/potted_catmint.json
+1b255d02aec8cfb987b01f54e8d02e967eecdfb6 data/wobble/loot_tables/blocks/potted_snapdragon.json
 362ae9f429f91166ed5b8367348534c913689f52 data/wobble/loot_tables/blocks/raw_alexandrite_block.json
 f215d5bc14f5302be0224bf6ecc5d7f209817b64 data/wobble/loot_tables/blocks/raw_sapphire_block.json
 9b8123de038c04a4f25580bd06284c5573b3bd7d data/wobble/loot_tables/blocks/sapphire_block.json
@@ -35,5 +36,6 @@ f619237a78c7ce760dbdddaec47d17d0a0203491 data/wobble/loot_tables/blocks/sapphire
 f752e61a537447afd09e6443771a87f23e4bf41c data/wobble/loot_tables/blocks/sapphire_stairs.json
 d748000d34fd5118ee462c8e88c42788b7ade882 data/wobble/loot_tables/blocks/sapphire_trapdoor.json
 6ea59803a518dd290734e4c163685e4d1cf0e387 data/wobble/loot_tables/blocks/sapphire_wall.json
+26408271de85824bf30f420ee13683bf487e8223 data/wobble/loot_tables/blocks/snapdragon.json
 b42abc8469c4c5dd7dd11536bc334dea4df8a687 data/wobble/loot_tables/blocks/sound_block.json
 ba35da82cc5c2242c7306916511f704758d1b74a data/wobble/loot_tables/blocks/strawberry_crop.json

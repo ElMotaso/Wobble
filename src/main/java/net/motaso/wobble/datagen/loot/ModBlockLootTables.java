@@ -65,7 +65,12 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 ModItems.CORN_SEEDS.get(), lootitemcondition$builder_corn));
 
         this.dropSelf(ModBlocks.CATMINT.get());
-        this.add(ModBlocks.POTTED_CATMINT.get(), createPotFlowerItemTable(ModBlocks.CATMINT.get()));
+        this.add(ModBlocks.POTTED_CATMINT.get(),
+                createPotFlowerItemTable(ModBlocks.CATMINT.get()));
+
+        this.dropSelf(ModBlocks.SNAPDRAGON.get());
+        this.add(ModBlocks.POTTED_SNAPDRAGON.get(),
+                createPotFlowerItemTable(ModBlocks.SNAPDRAGON.get()));
 
         this.dropSelf(ModBlocks.SAPPHIRE_STAIRS.get());
         this.dropSelf(ModBlocks.SAPPHIRE_BUTTON.get());

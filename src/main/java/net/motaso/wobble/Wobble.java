@@ -74,6 +74,7 @@ public class Wobble
     private void commonSetup(final FMLCommonSetupEvent event) {
         event.enqueueWork(() ->{
             ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.CATMINT.getId(), ModBlocks.POTTED_CATMINT);
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.SNAPDRAGON.getId(), ModBlocks.POTTED_SNAPDRAGON);
             ComposterBlock.COMPOSTABLES.put(ModItems.CHERRY.get(), 0.15f);
             ComposterBlock.COMPOSTABLES.put(ModItems.STRAWBERRY.get(), 0.15f);
             ComposterBlock.COMPOSTABLES.put(ModItems.STRAWBERRY_SEEDS.get(), 0.1f);

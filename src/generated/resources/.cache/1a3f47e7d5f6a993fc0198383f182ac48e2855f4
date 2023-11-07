@@ -1,4 +1,4 @@
-// 1.20.1	2023-11-05T12:45:36.991355	Item Models: wobble
+// 1.20.1	2023-11-07T09:34:12.931949	Item Models: wobble
 fd748ace441a203dfa1a31aa01cd8508ed8a8ccc assets/wobble/models/item/alexandrite.json
 8fcccdf1b3c92944315acdff5bbdf95513acc6c8 assets/wobble/models/item/alexandrite_axe.json
 220f7c012ca7d4d78c3e55b83ecaca0e029036f7 assets/wobble/models/item/alexandrite_boots.json
@@ -135,5 +135,6 @@ ffd3811c3a76ecf1ab655eb7690391b301bbb86a assets/wobble/models/item/sapphire_slab
 654f30eba36b1dad3f819fb33677795672e265d5 assets/wobble/models/item/sapphire_sword.json
 8c4cf69731616ba58a61abb537aaeac2f6702f2f assets/wobble/models/item/sapphire_trapdoor.json
 f7650c86d8829b252e83cd52682d6d8ab385426d assets/wobble/models/item/sapphire_wall.json
+ec66fb033f8c6e346ea20c251886094c4dbad6f6 assets/wobble/models/item/snapdragon.json
 a9667677a8690ada7780a720400467b9d4c4ab24 assets/wobble/models/item/strawberry.json
 4847886caf88238d027979cc356921b14c0c8442 assets/wobble/models/item/strawberry_seeds.json
