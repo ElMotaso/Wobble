@@ -125,6 +125,8 @@ public class ModCreativeModTabs {
 
                                 pOutput.accept(ModBlocks.ALEXANDRITE_LAMP.get());
 
+                                pOutput.accept(ModBlocks.GEM_EMPOWERING_STATION.get());
+
 
                             }))
                             .build());

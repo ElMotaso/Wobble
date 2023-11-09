@@ -1,4 +1,4 @@
-// 1.20.1	2023-11-07T09:34:12.931949	Item Models: wobble
+// 1.20.1	2023-11-09T17:50:48.843464	Item Models: wobble
 fd748ace441a203dfa1a31aa01cd8508ed8a8ccc assets/wobble/models/item/alexandrite.json
 8fcccdf1b3c92944315acdff5bbdf95513acc6c8 assets/wobble/models/item/alexandrite_axe.json
 220f7c012ca7d4d78c3e55b83ecaca0e029036f7 assets/wobble/models/item/alexandrite_boots.json
@@ -67,6 +67,7 @@ aabed483f667b8cb2f8c8d9bcdb0a92c54998a09 assets/wobble/models/item/bar_brawl_mus
 5728db895de54ae5ce88e32733cf89b183c41f29 assets/wobble/models/item/cherry_stone.json
 d176779137e88fdc2eabfc7762e7ef9ffac02d3f assets/wobble/models/item/corn.json
 46446e79272287b9b169a36228aff75d133679a0 assets/wobble/models/item/corn_seeds.json
+ac487f5d9b390d38deaedcede38a910f5ce01f8e assets/wobble/models/item/gem_empowering_station.json
 1ce21f316be472637876c2236dc591dd0527cf8f assets/wobble/models/item/kohlrabi.json
 9993e8bfad61393ccc290289f0b6afcb6ede4311 assets/wobble/models/item/kohlrabi_seeds.json
 d2ae72be0910449c90e4023a9245ad6585550cf7 assets/wobble/models/item/metal_detector.json

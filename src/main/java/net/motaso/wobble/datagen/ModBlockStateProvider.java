@@ -90,6 +90,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlockWithItem(ModBlocks.GEM_POLISHING_STATION.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/gem_polishing_station")));
 
+        horizontalBlock(ModBlocks.GEM_EMPOWERING_STATION.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/gem_empowering_station")));
+
         customLamp();
     }
 

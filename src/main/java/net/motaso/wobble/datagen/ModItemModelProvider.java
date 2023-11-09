@@ -5,6 +5,7 @@ import net.minecraft.server.packs.PackType;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.armortrim.TrimMaterial;
 import net.minecraft.world.item.armortrim.TrimMaterials;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.motaso.wobble.Wobble;
 import net.motaso.wobble.block.ModBlocks;
@@ -121,6 +122,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.ALEXANDRITE_CHESTPLATE);
         trimmedArmorItem(ModItems.ALEXANDRITE_LEGGINGS);
         trimmedArmorItem(ModItems.ALEXANDRITE_BOOTS);
+
+        complexBlock(ModBlocks.GEM_EMPOWERING_STATION.get());
     }
 
     // Shoutout to El_Redstoniano for making this
@@ -212,6 +215,11 @@ public class ModItemModelProvider extends ItemModelProvider {
     public void evenSimplerBlockItem(RegistryObject<Block> block) {
         this.withExistingParent(Wobble.MODID + ":" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath(),
                 modLoc("block/" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath()));
+    }
+
+    public ItemModelBuilder complexBlock(Block block) {
+        return withExistingParent(ForgeRegistries.BLOCKS.getKey(block).getPath(), new ResourceLocation(Wobble.MODID,
+                "block/" + ForgeRegistries.BLOCKS.getKey(block).getPath()));
     }
 
     private ItemModelBuilder simpleBlockItemBlockTexture(RegistryObject<Block> item) {

@@ -1,4 +1,4 @@
-// 1.20.1	2023-11-07T09:26:19.118565	Block States: wobble
+// 1.20.1	2023-11-09T17:50:48.837686	Block States: wobble
 a4cf01ff6148d2ee75f501399ea4307c7c3df722 assets/wobble/blockstates/alexandrite_block.json
 77868efe3de072ded606102ac06498332c9602af assets/wobble/blockstates/alexandrite_button.json
 1a1b161d2c1d3e788ce41a7e2f8861b0aba8db5c assets/wobble/blockstates/alexandrite_door.json
@@ -17,6 +17,7 @@ eca6b85a53153561546bcb6173d0ae6205df9647 assets/wobble/blockstates/deepslate_ale
 076d780365be1b38276ff07ad01727c9a85955f3 assets/wobble/blockstates/deepslate_sapphire_ore.json
 c1495e7c9eb6052a7352acfdd3b1e35a2aeeab43 assets/wobble/blockstates/end_stone_alexandrite_ore.json
 77affad200c99f8bc91f01a931204d6af54334a6 assets/wobble/blockstates/end_stone_sapphire_ore.json
+6e9d6d0c62f445ed0cc413ca4203b3ba5d3cc7bd assets/wobble/blockstates/gem_empowering_station.json
 cbb0f5fe54a209ba408d49e9bc31dcfce88f25ed assets/wobble/blockstates/gem_polishing_station.json
 63be70174215b107e752f756a0ec3a8254b96244 assets/wobble/blockstates/kohlrabi_crop.json
 c6bea84648ffbd689c003402fe450c2424cd303c assets/wobble/blockstates/nether_alexandrite_ore.json
