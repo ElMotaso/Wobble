@@ -94,6 +94,8 @@ public class ModCreativeModTabs {
                                 pOutput.accept(ModItems.ALEXANDRITE_PAXEL.get());
                                 pOutput.accept(ModItems.ALEXANDRITE_HAMMER.get());
 
+                                pOutput.accept(ModItems.RADIATION_STAFF.get());
+
                                 pOutput.accept(ModItems.ALEXANDRITE_HELMET.get());
                                 pOutput.accept(ModItems.ALEXANDRITE_CHESTPLATE.get());
                                 pOutput.accept(ModItems.ALEXANDRITE_LEGGINGS.get());
