@@ -70,7 +70,7 @@ public class ModItems {
     public static final RegistryObject<Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe",
                 () -> new HoeItem(ModToolTiers.SAPPHIRE, 0, 0, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_STAFF = ITEMS.register("sapphire_staff",
-            () -> new Item(new Item.Properties().durability(1024)));
+            () -> new LevitationStaffItem(new Item.Properties().durability(1024)));
     public static final RegistryObject<Item> RADIATION_STAFF = ITEMS.register("radiation_staff",
             () -> new Item(new Item.Properties().durability(1024)));
 
