@@ -93,6 +93,7 @@ public class ModCreativeModTabs {
                                 pOutput.accept(ModItems.ALEXANDRITE_HOE.get());
                                 pOutput.accept(ModItems.ALEXANDRITE_PAXEL.get());
                                 pOutput.accept(ModItems.ALEXANDRITE_HAMMER.get());
+                                pOutput.accept(ModItems.ALEXANDRITE_BOW.get());
 
                                 pOutput.accept(ModItems.RADIATION_STAFF.get());
 

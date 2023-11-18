@@ -88,6 +88,8 @@ public class ModItems {
                 () -> new PaxelItem(ModToolTiers.ALEXANDRITE, 0, 0, new Item.Properties()));
     public static final RegistryObject<Item> ALEXANDRITE_HAMMER = ITEMS.register("alexandrite_hammer",
                 () -> new HammerItem(ModToolTiers.ALEXANDRITE, 0, 0, new Item.Properties()));
+    public static final RegistryObject<Item> ALEXANDRITE_BOW = ITEMS.register("alexandrite_bow",
+                () -> new BowItem(new Item.Properties().durability(500)));
 
     public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
                 () -> new ModArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new Item.Properties()));
