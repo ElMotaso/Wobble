@@ -143,6 +143,9 @@ public class ModCreativeModTabs {
                                 pOutput.accept(ModItems.CHERRY_STONE.get());
 
                                 pOutput.accept(ModItems.NEBO_I_SIMA_MUSIC_DISC.get());
+
+                                pOutput.accept(ModBlocks.START_BLOCK.get());
+                                pOutput.accept(ModBlocks.STOP_BLOCK.get());
                             }))
                             .build());
 

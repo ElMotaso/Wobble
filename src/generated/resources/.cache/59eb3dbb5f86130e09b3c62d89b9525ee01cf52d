@@ -1,4 +1,4 @@
-// 1.20.1	2023-11-09T17:50:48.828348	Loot Tables
+// 1.20.1	2023-11-18T23:48:09.998839	Loot Tables
 7c88011ca74bca8f3c0d749f3d43fdf43fb317a8 data/wobble/loot_tables/blocks/alexandrite_block.json
 d5b5dd0ed6491d110a43181cf22b37e1bd1623f8 data/wobble/loot_tables/blocks/alexandrite_button.json
 3d5e9c625657b632fcb361215723e7a5260336bb data/wobble/loot_tables/blocks/alexandrite_door.json
@@ -39,4 +39,6 @@ d748000d34fd5118ee462c8e88c42788b7ade882 data/wobble/loot_tables/blocks/sapphire
 6ea59803a518dd290734e4c163685e4d1cf0e387 data/wobble/loot_tables/blocks/sapphire_wall.json
 26408271de85824bf30f420ee13683bf487e8223 data/wobble/loot_tables/blocks/snapdragon.json
 b42abc8469c4c5dd7dd11536bc334dea4df8a687 data/wobble/loot_tables/blocks/sound_block.json
+a4530233b15a7e94d8fbad61ad3c7795c1774fcd data/wobble/loot_tables/blocks/start_block.json
+3e160e0bb64c58d8d7c87a8ad35663f7c3877f80 data/wobble/loot_tables/blocks/stop_block.json
 ba35da82cc5c2242c7306916511f704758d1b74a data/wobble/loot_tables/blocks/strawberry_crop.json

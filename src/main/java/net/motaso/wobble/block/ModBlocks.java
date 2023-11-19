@@ -153,6 +153,14 @@ public class ModBlocks {
     public static final RegistryObject<Block> GEM_EMPOWERING_STATION = registerBlock("gem_empowering_station",
             () -> new GemEmpoweringStationBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
+    public static final RegistryObject<Block> START_BLOCK = registerBlock("start_block",
+            () -> new StartBlock(BlockBehaviour.Properties.copy(Blocks.COMMAND_BLOCK).mapColor(MapColor.COLOR_LIGHT_GREEN)));
+
+    public static final RegistryObject<Block> STOP_BLOCK = registerBlock("stop_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COMMAND_BLOCK).mapColor(MapColor.COLOR_RED)));
+
+
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

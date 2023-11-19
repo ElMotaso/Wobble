@@ -33,9 +33,13 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
         this.dropSelf(ModBlocks.ALEXANDRITE_BLOCK.get());
         this.dropSelf(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
-        this.dropSelf(ModBlocks.SOUND_BLOCK.get());
         this.dropSelf(ModBlocks.GEM_POLISHING_STATION.get());
         this.dropSelf(ModBlocks.GEM_EMPOWERING_STATION.get());
+
+
+        this.dropSelf(ModBlocks.SOUND_BLOCK.get());
+        this.dropSelf(ModBlocks.START_BLOCK.get());
+        this.dropSelf(ModBlocks.STOP_BLOCK.get());
 
         LootItemCondition.Builder lootitemcondition$builder_strawberry = LootItemBlockStatePropertyCondition
                 .hasBlockStateProperties(ModBlocks.STRAWBERRY_CROP.get())

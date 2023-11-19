@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "wobble:block/stop_block"
+    }
+  }
+}

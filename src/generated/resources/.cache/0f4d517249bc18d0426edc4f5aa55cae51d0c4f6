@@ -1,4 +1,4 @@
-// 1.20.1	2023-11-09T17:50:48.837686	Block States: wobble
+// 1.20.1	2023-11-18T23:48:10.008937	Block States: wobble
 a4cf01ff6148d2ee75f501399ea4307c7c3df722 assets/wobble/blockstates/alexandrite_block.json
 77868efe3de072ded606102ac06498332c9602af assets/wobble/blockstates/alexandrite_button.json
 1a1b161d2c1d3e788ce41a7e2f8861b0aba8db5c assets/wobble/blockstates/alexandrite_door.json
@@ -39,6 +39,8 @@ feb4c970687912f0b1ad404387c60cc79f301171 assets/wobble/blockstates/sapphire_slab
 642a245d882d7204237c2a52996d4cfa11e22e7c assets/wobble/blockstates/sapphire_wall.json
 8512dcd4de75ee33a7d71f5c3e56ee07450ce896 assets/wobble/blockstates/snapdragon.json
 e2c90ea3b0253a1e3ecfa52a1d56282177090f16 assets/wobble/blockstates/sound_block.json
+2481f0d6a7177571c0e59c7a2bdddb9791585aa9 assets/wobble/blockstates/start_block.json
+eb75831cd33d1b3b571550ddf1da6284f3b4e438 assets/wobble/blockstates/stop_block.json
 0161cbcbd02f0e6dcc6fb029a3baf6c85b96e334 assets/wobble/blockstates/strawberry_crop.json
 a1a790773444ccdeb05d19ea361590aa0d7ab9ef assets/wobble/models/block/alexandrite_block.json
 02db651c4eb7427c74b5985aa6e9486469fa444f assets/wobble/models/block/alexandrite_button.json
@@ -133,6 +135,8 @@ c84de3d850890b115a850cb77357403fa8aef5d1 assets/wobble/models/block/sapphire_wal
 4996d3063b53a4876e61e18826c0f57eb1801710 assets/wobble/models/block/sapphire_wall_side_tall.json
 7d403d3881166bc861bf2b6192fabbef2b45f3c7 assets/wobble/models/block/snapdragon.json
 59b16ffc638254b982ca8c2bca651677af21dddd assets/wobble/models/block/sound_block.json
+7479add5253abbbcb62011f0776a9386b54509db assets/wobble/models/block/start_block.json
+4a09da02a261f054ef383c2b55b2d913a198af8e assets/wobble/models/block/stop_block.json
 97b57e2898d0e68d117299d00fe48c8bdf7d6e62 assets/wobble/models/block/strawberry_stage0.json
 c0997177c9d4676b643f4b1df5153c7ab22e9fc4 assets/wobble/models/block/strawberry_stage1.json
 802da786ba70e602329c0345b7e209953b75058a assets/wobble/models/block/strawberry_stage2.json
@@ -158,3 +162,5 @@ b9aff1f218148873e50ecd52b8bcbc9530fd658b assets/wobble/models/item/sapphire_bloc
 34a4cb0d16f5f8bd02e3c14247a3559e4a78d9e9 assets/wobble/models/item/sapphire_ore.json
 408745e328538e16b641889d3a74a102c1aa23d9 assets/wobble/models/item/snapdragon.json
 313a51b68350842d8b13d4cbbdac4de34df70d7f assets/wobble/models/item/sound_block.json
+2433eb80e4e137d6063addd2996e15eefe07e720 assets/wobble/models/item/start_block.json
+4bcf10e9e4c2ab21f491b4f8520304b1995845fd assets/wobble/models/item/stop_block.json
